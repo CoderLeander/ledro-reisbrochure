@@ -90,22 +90,18 @@ Met de verduidelijking dat er **maximaal 2 fietsen meegaan (en er ter plaatse ge
 
 ### De Rol van de Vliegers (2 personen):
 - **Geen ingecheckte ruimbagage nodig:** Omdat alle kleren, toiletzakken en fietsen al in de auto liggen, reizen de vliegers met enkel een gratis kleine rugzak. Geen bagagetoeslagen en geen wachttijd aan de bagageband!
-- **Factcheck Luchthavens:**
-  1. **Brescia Montichiari (VBS):** Geen optie. Dit vliegveld ontvangt al jaren geen reguliere passagiersvluchten meer (uitsluitend vracht en post).
-  2. **Brussel Zaventem (BRU):** Vliegt enkel naar Milaan Linate (LIN) of Malpensa (MXP). Dit ligt echter ver naar het westen (180 – 225 km van Ledro), wat voor de auto die via Oostenrijk/Brenner komt een flinke omweg betekent.
-  3. **Brussel South Charleroi (CRL) &rarr; Verona Villafranca (VRN) (Beste vliegoptie):**
-     - Slechts **95 km (ca. 1u15)** van Ledro.
-     - Ligt pal langs de route van de auto die via de Brennerpas naar beneden rijdt!
-     - De auto pikt de vliegers rechtstreeks op bij de aankomsthal van Verona.
-  4. **Brussel South Charleroi (CRL) &rarr; Milaan Bergamo (BGY):**
-     - Dagelijks meerdere Ryanair-vluchten.
-     - Ligt op **135 km (ca. 1u50)** van Ledro via het Idromeer.
+- **Factcheck Luchthavens & Bereikbaarheid vanuit West-Vlaanderen:**
+  1. **Oostende-Brugge Airport (OST):** Geen optie. TUI fly voert vanaf Oostende **geen enkele vlucht naar Italië** uit (enkel Spanje, Griekenland, Canarische Eilanden).
+  2. **Lille-Lesquin Airport (LIL):** Vliegt naar Zuid-Italië (Bari, Palermo) en Rome, maar heeft **geen vluchten naar Noord-Italië**.
+  3. **Brussels South Charleroi (CRL):** Heeft wel directe budgetvluchten naar Verona (VRN) en Bergamo (BGY), maar is vanuit West-Vlaanderen lastig bereikbaar (files, pendelparkings, chaotische terminal). Als de vliegers er tegenop zien om dit traject alleen af te leggen, levert dit vooraf stress op.
+  4. **Brussel Zaventem (BRU):** Zeer comfortabel (rechtstreekse trein Izegem/Kortrijk tot onder de vertrekhal), directe vluchten met Brussels Airlines naar Milaan Linate (LIN). Maar: Linate ligt 180 km ten westen van Ledro, wat betekent dat de auto flink moet omrijden of de vliegers ter plaatse nog op een Italiaanse trein moeten stappen.
+  5. **Brescia Montichiari (VBS):** Geen optie (uitsluitend vracht/DHL, geen passagiersdiensten).
 
 ---
 
 ## 💡 Geverifieerde Hotels voor Tussenstops (4 personen = 2 Tweepersoonskamers)
 
-Omdat jullie met 4 personen reizen en **4 fietsen achterop de auto** hebben, zijn de selectiecriteria:
+Omdat jullie met 4 personen reizen en **maximaal 2 fietsen achterop de auto** hebben (of eventueel zonder fietsen reizen), zijn de selectiecriteria:
 - **2 comfortabele tweepersoonskamers**
 - **Veilige, ruime parkeergelegenheid** voor de wagen met fietsendrager (idealiter afgesloten fietsparking/garage)
 - **Uitgebreid ontbijt** voor een energieke start
