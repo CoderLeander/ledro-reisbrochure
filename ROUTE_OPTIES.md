@@ -97,10 +97,40 @@ Hoewel Villach geografisch ideaal ligt (slechts 65 km van het Meer van Bled), st
 
 ---
 
-## ✈️ Optie 3: Vlucht Brussel Zaventem (BRU) &rarr; Ljubljana (LJU)
+## ✈️ Optie 3: Vlucht Brussel Zaventem (BRU) &rarr; Ljubljana (LJU) + Huurauto
 
-- **Luchtvaartmaatschappij:** Brussels Airlines (SN) vliegt rechtstreeks van **Brussel Zaventem (BRU) naar Ljubljana (LJU)**.
-- **Vluchttijd:** Slechts **1 uur en 45 minuten**.
-- **Afstand van vliegveld naar Bled:** Slechts **35 km (25 minuten rijden over de snelweg A2)**.
-- **Huurauto:** Een compacte SUV of middenklasse auto ophalen op de rustige luchthaven van Ljubljana is snel en overzichtelijk (veel minder hectisch dan Italiaanse luchthavens).
-- **Geschikt voor:** Reizigers die maximaal tijd willen winnen en binnen 4 uur van voordeur tot hotel aan het meer willen staan.
+Vliegen naar Slovenië is op alle fronten **veel aangenamer, rustiger én aanzienlijk goedkoper dan naar Italië**:
+
+### 1. Huurauto in Slovenië (Ljubljana Airport): 35% tot 50% Goedkoper!
+- **Huurauto in Italië (Bergamo):** In het hoogseizoen al snel **€ 750** voor een ruime wagen/SUV.
+- **Huurauto in Slovenië (Ljubljana):** Een comfortabele compacte SUV of stationwagen (zoals een VW T-Cross, Skoda Kamiq of Renault Captur) kost in juli voor 8 dagen gemiddeld **€ 350 – € 450** (inclusief basisverzekering).
+- **Extra voordeel:** Vrijwel alle Sloveense huurwagens hebben het **Sloveense e-vignet al standaard ingebouwd/inbegrepen** (bespaart weer € 32).
+- **Luchthavengemak:** Ljubljana Airport (LJU) is een rustige, moderne en compacte luchthaven. Geen urenlange wachtrijen bij de autoverhuur zoals in Bergamo of Malpensa; binnen 15 minuten na de bagageband zit je in de auto.
+- **Rijtijd naar het meer:** Vanaf de terminal naar het Meer van Bled is het **amper 35 km (25 minuten over de rustige snelweg A2)**!
+
+### 2. Vluchten vanaf Brussel Zaventem (BRU):
+- **Luchtvaartmaatschappij:** **Brussels Airlines (SN)** vliegt rechtstreeks van Zaventem naar Ljubljana.
+- **Vluchttijd:** Slechts **1 uur en 35 minuten**!
+- **Geen Charleroi-stress:** Vertrek vanaf Zaventem is zeer comfortabel (bijv. rechtstreekse trein vanuit Izegem of Kortrijk tot onder de vertrekhal).
+- **Prijzen tickets (juli, bij tijdige boeking):**
+  - Retour basistarief: ca. **€ 140 – € 180 p.p.**
+  - 4 personen retour = ca. **€ 600 – € 720**.
+  - 2 ruime koffers (23 kg) inchecken voor alle 4 samen: ca. **€ 80** retour.
+  - Vliegtickets totaal: ca. **€ 680 – € 800**.
+
+### 3. Totale Kosten Vliegen + Huurauto (Slovenië):
+- Vliegtickets (4 pers. incl. 2 ruimbagage koffers): ca. € 740
+- Huurauto 8 dagen (compacte SUV/stationwagen): ca. € 380
+- Brandstof lokaal (amper afstanden): ca. € 50
+- **Totale reiskost voor de hele groep: ca. € 1.170 (~€ 290 p.p.)**
+- *(Ter vergelijking: vliegen + huurauto in Italië kostte ruim **€ 1.480**).*
+
+---
+
+### 💡 Alternatief: Hybride voor Slovenië (2 Auto + 2 Vlucht Zaventem)
+Als 2 personen liever rijden en 2 liever vliegen:
+- De auto rijdt via Chiemsee/Salzburg met de 2 fietsen en alle koffers. De chauffeurs boeken onderweg maar **1 hotelkamer** (besparing € 180).
+- De 2 vliegers nemen de rechtstreekse vlucht Zaventem &rarr; Ljubljana (2 tickets = ca. € 320).
+- De auto pikt de vliegers eenvoudig op bij Ljubljana Airport (ligt op amper 25 min van Bled!).
+- **Géén huurauto nodig (€ 0)!**
+- **Totaalprijs voor alle 4 samen: ca. € 780 (~€ 195 p.p.)!**
