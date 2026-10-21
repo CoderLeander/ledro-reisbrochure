@@ -102,20 +102,57 @@ Na een grondige vergelijking van reistijden, logistiek, comfort en kosten is **O
 
 ---
 
-## 💡 Aanbevelingen voor Tussenstop-Hotels (Optie 1)
+## 💡 Geverifieerde Hotels voor Tussenstops (4 personen = 2 Tweepersoonskamers)
 
-Voor een gezellige, betaalbare tussenstop voor 4 personen (2 tweepersoonskamers of een ruime familiekamer met eigen sanitair en ontbijt):
+Omdat jullie met 4 personen reizen en **4 fietsen achterop de auto** hebben, zijn de selectiecriteria:
+- **2 comfortabele tweepersoonskamers**
+- **Veilige, ruime parkeergelegenheid** voor de wagen met fietsendrager (idealiter afgesloten fietsparking/garage)
+- **Uitgebreid ontbijt** voor een energieke start
+- **Uitstekende prijs-kwaliteitverhouding in het hoogseizoen (juli)**
 
-1. **Heenweg: Füssen / Schwangau (Beieren)**
-   - *Sfeer:* Romantische alpensfeer, zicht op bergen en kastelen, traditionele *Wirtshäuser*.
-   - *Aanraders:* 
-     - **Hotel Fantasia Füssen** of **Gasthof Zum Rappen**: sfeervol, gratis parkeergelegenheid, op 5 min wandelen van de historische altstadt.
-     - **Prijsindicatie:** € 140 – € 180 totaal voor 4 personen inclusief Beiers ontbijtbuffet.
-2. **Heenweg alternatief: Reutte (Tirol, Oostenrijk - net over de grens)**
-   - *Sfeer:* Authentiek Oostenrijks bergdorp aan het begin van de Fernpass.
-   - *Aanraders:* **Gasthof Krone** of **Hotel Zum Mohren** in Reutte.
-   - *Prijsindicatie:* € 130 – € 170 voor 4 personen incl. ontbijt.
-3. **Terugweg: Speyer (Rijnland-Palts, Duitsland)**
-   - *Sfeer:* Één van Duitslands oudste steden, prachtige keizerlijke domkerk, mediterrane sfeer langs de Rijnpromenade met wijnlokalen.
-   - *Aanraders:* **Hotel Speyer am Technik Museum** of **Hotel Trutzpfaff**.
-   - *Prijsindicatie:* € 120 – € 160 totaal voor 4 personen incl. ontbijt.
+---
+
+### 1. Heenweg (Zondag 11 juli 2027) – Regio Füssen / Reutte (~740 km vanaf Ingelmunster)
+
+#### 🌟 Keuze 1 (Tip voor fietsers!): Hotel Goldene Rose (Lechaschau / Reutte, Tirol)
+- **Ligging:** Net over de grens in Oostenrijk (3 km van Füssen), aan de voet van de Alpen en het begin van de Fernpass.
+- **Kamers:** 2 tweepersoonskamers (*Standard* of *Comfort* met eigen sanitair).
+- **Prijs juli (2 kamers):** ca. **€ 280 – € 340 totaal** (€ 140 – € 170 per kamer) inclusief uitgebreid Tirools ontbijtbuffet.
+- **Parkeren & Fietsen:** **Gratis privéparking én een afgesloten fietsengarage!** Dit is ideaal om de 4 fietsen veilig op te bergen voor de nacht.
+- **Extra:** Gratis toegang tot de wellness (sauna & stoombad) om na 7,5 uur rijden lekker te ontspannen.
+- **Afstand tot Ledro:** 320 km (~4u rijden). Maandag vertrek om 08:00 = **12:00 aankomst in Ledro**.
+
+#### 💰 Keuze 2 (Beste Budgetoptie): Alpenmotel Säuling (Pinswang / Reutte, Tirol)
+- **Ligging:** In het rustige bergdorpje Pinswang, 5 km ten zuiden van Füssen en Neuschwanstein.
+- **Kamers:** 2 tweepersoonskamers met balkon en bergzicht.
+- **Prijs juli (2 kamers):** ca. **€ 190 – € 250 totaal** (€ 95 – € 125 per kamer).
+- **Parkeren & Fietsen:** **Gratis grote privéparking direct voor het motel.** Zeer overzichtelijk en rustig gelegen dal, populair bij doorreizigers met fietsen/dakkoffers.
+- **Ontbijt:** Dagelijks ontbijt beschikbaar (koffie, broodjes, yoghurt, ontbijtgranen).
+- **Afstand tot Ledro:** 330 km (~4u05 rijden).
+
+#### 🏰 Keuze 3 (Sfeervolle Historische Stad): Villa Fantasia Budget Boutique Hotel (Füssen, Beieren)
+- **Ligging:** Direct in het gezellige oude centrum van Füssen, op loopafstand van terrasjes en Beierse *Biergärten*.
+- **Kamers:** 2 tweepersoonskamers in een charmante Jugendstil-villa met uitzicht op de binnentuin of het slot.
+- **Prijs juli (2 kamers):** ca. **€ 240 – € 300 totaal** (€ 120 – € 150 per kamer).
+- **Parkeren:** Eigen privéparkeerplaats bij het hotel (ca. € 6 – € 8 per nacht).
+- **Ontbijt:** Rijk ontbijtbuffet bij te boeken of inbegrepen.
+- **Afstand tot Ledro:** 345 km (~4u15 rijden).
+
+---
+
+### 2. Terugweg (Dinsdag 20 juli 2027) – Regio Speyer / Pfalz (~600 km vanaf Ledro)
+
+#### 🌟 Keuze 1 (Absolute Aanrader): Hotel Speyer am Technik Museum (Speyer, Rijnland-Palts)
+- **Ligging:** Direct aan de B9 / A61, op slechts 10 minuten wandelen van de beroemde romaanse keizerdom van Speyer en de historische terrassen.
+- **Kamers:** 2 moderne, ruime tweepersoonskamers.
+- **Prijs juli (2 kamers):** ca. **€ 180 – € 250 totaal** (€ 90 – € 125 per kamer) inclusief uitstekend ontbijtbuffet.
+- **Parkeren & Fietsen:** **Enorm, veilig privéparkeerterrein direct bij het hotel, volledig GRATIS.** Geen manoeuvreerstress met fietsendrager, auto staat veilig op het eigen terrein.
+- **Sfeer:** Speyer is een prachtige, zonnige stad aan de Rijn met gezellige wijnbars en terrassen.
+- **Afstand naar huis:** Nog slechts 490 km (~4u45 rijden). Woensdag vertrek om 09:00 = **14:00 thuis in Ingelmunster**.
+
+#### 🍷 Keuze 2 (Centrum & Wijnstreek): Hotel Löwengarten (Speyer)
+- **Ligging:** Rustig gelegen aan de rand van het stadscentrum van Speyer.
+- **Kamers:** 2 klassieke tweepersoonskamers.
+- **Prijs juli (2 kamers):** ca. **€ 220 – € 270 totaal** (€ 110 – € 135 per kamer), ontbijt ca. € 18 p.p.
+- **Parkeren:** Eigen parkeerplaatsen (€ 5/nacht).
+- **Sfeer:** Eigen restaurant met Pfälzer wijnen en seizoensgerechten.
