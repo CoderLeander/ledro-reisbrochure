@@ -127,7 +127,21 @@ Vliegen naar Slovenië is op alle fronten **veel aangenamer, rustiger én aanzie
 
 ---
 
-### 💡 Alternatief: Hybride voor Slovenië (2 Auto + 2 Vlucht Zaventem)
+### 💡 Alternatief 1: Vliegen ZONDER Vaste Huurauto (Transfer + Lokale Shuttles / 1 Dag Huur)
+Een huurauto voor de hele week is aan het Meer van Bled **absoluut NIET noodzakelijk** en kan flink besparen:
+- **Luchthaventransfer (Ljubljana Airport &rarr; Bled):** Slechts 35 km! Een vooraf gereserveerd taxibusje voor 4 personen kost **ca. € 55 – € 65 per rit** (ca. **€ 120 retour voor alle 4 samen**). De chauffeur staat klaar in de hal en zet je voor de hoteldeur af.
+- **Geen parkeerkosten in Bled:** Parkeren rond het meer kost in juli al snel € 2,50 – € 4,00 per uur of € 15 – € 20 per dag. Zonder huurauto bespaar je direct **€ 120 – € 160 aan parkeergeld**!
+- **Uitstekend lokaal vervoer:**
+  - *Rond het meer:* Alles is te voet bereikbaar (vlakke boulevard van 6 km rondom), eiland per pletna-boot, kasteel via wandelpad.
+  - *Vintgar-kloof (4 km):* De speciale *Vintgar Shuttle Bus* rijdt elk halfuur vanaf het busstation voor € 3 – € 5 p.p.
+  - *Bohinjmeer & Vogel (25 km):* Elk uur een rechtstreekse comfortabele bus voor slechts **€ 3,60 p.p.**
+  - *Ljubljana (50 km):* Elk halfuur/uur een bus of trein voor **€ 6,30 p.p.** (Ljubljana centrum is 100% autovrij, dus per bus kom je veel vlotter in het hart van de stad zonder dure parkeergarages).
+- **Incidentele autohuur voor 1 dag in Bled:** Wil je een dag de bergpas Vršič en de Soča-vallei rijden? Dan huur je ter plaatse in Bled een auto voor **slechts 1 dag (ca. € 50 – € 70)**!
+- **Totaalprijs Vlucht + Transfer + Shuttles + 1 dag huur:** Slechts **ca. € 950 – € 1.050 voor de hele groep (~€ 240 – € 260 p.p.)**!
+
+---
+
+### 💡 Alternatief 2: Hybride voor Slovenië (2 Auto + 2 Vlucht Zaventem)
 Als 2 personen liever rijden en 2 liever vliegen:
 - De auto rijdt via Chiemsee/Salzburg met de 2 fietsen en alle koffers. De chauffeurs boeken onderweg maar **1 hotelkamer** (besparing € 180).
 - De 2 vliegers nemen de rechtstreekse vlucht Zaventem &rarr; Ljubljana (2 tickets = ca. € 320).
