@@ -4,20 +4,21 @@
 **Doel aankomst:** Maandag 12 juli rond de middag (~12:00 – 13:00)  
 **Vertrekpunt:** Ingelmunster (West-Vlaanderen)  
 **Bestemming:** Hotel Lido Ledro, Pieve di Ledro (Trentino, Italië)  
-**Gezelschap:** 4 personen + fietsen en bagage  
+**Gezelschap:** 4 personen  
+**Fietsen & Bagage:** Max. 2 fietsen op de drager (geen specifieke fietsvakantie-verwachting) + 4 stuks bagage  
 
 ---
 
-## 🧭 Samenvatting & Beredeneerd Voorstel
+## 🧭 Samenvatting & Belangrijkste Nieuwe Inzichten
 
-Na een grondige vergelijking van reistijden, logistiek, comfort en kosten is **Optie 1 (Volledig met de wagen - 4 personen)** de absolute winnaar op het vlak van prijs, comfort en vrijheid:
+Met de verduidelijking dat er **maximaal 2 fietsen meegaan (en er ter plaatse geen specifieke fietsvakantie gepland is)**, verandert de dynamiek tussen de opties aanzienlijk:
 
-1. **Financieel enorm voordelig:** In totaal kost de autorit (brandstof + tol + vignetten + 2 overnachtingen met ontbijt voor 4 personen) **ca. €680 voor de hele groep** (~€170 p.p.). Ter vergelijking: vliegen voor 4 personen + huurauto kostte **ca. €1.450**, zónder eigen fietsen.
-2. **Eigen fietsen & onbeperkte bagage:** 4 eigen kwalitatieve fietsen mee op de fietsendrager bespaart minimaal €600 à €800 aan lokale fietshuur in Trentino.
-3. **Ideale timing voor middagaankomst:** Door op zondag 11 juli na ~740 km te overnachten in **Füssen (Beieren)** of **Reutte (Tirol)**, is het op maandagochtend nog maar **340 km (ca. 4 uur rijden)**. Vertrek om 08:00 = **aankomst aan het Ledromeer om 12:15**.
-4. **Vliegtuig-factcheck Brescia & Zaventem:** 
-   - Luchthaven **Brescia Montichiari (VBS)** heeft **geen commerciële passagiersvluchten** meer (uitsluitend vracht/DHL en privévluchten).
-   - Vanaf **Brussel Zaventem (BRU)** zijn er **geen rechtstreekse vluchten** naar Bergamo of Verona (enkel Milaan Linate/Malpensa). Directe budgetvluchten naar Bergamo (BGY) en Verona (VRN) vertrekken exclusief vanaf **Charleroi (CRL)**.
+1. **Optie 1 en Optie 2 zijn nu nagenoeg EXACT even duur (ca. € 680 – € 720 voor de hele groep)!**
+   - Waarom? Bij **Optie 2 (Hybride)** reizen er maar 2 personen met de auto. Dat betekent dat er onderweg slechts **1 hotelkamer** (ipv 2 kamers) geboekt hoeft te worden. Die besparing op overnachtingen heft de kosten van de 2 vliegtickets bijna volledig op!
+2. **Zeeën van bagageruimte bij Optie 2:** Met slechts 2 personen in de auto kan de achterbank plat of gebruikt worden voor alle 4 grote koffers/tassen. De 2 vliegers hoeven geen ruimbagagetoeslag te betalen en kunnen vliegen met een gratis kleine rugzak.
+3. **De keuze is nu 100% een kwestie van reisvoorkeur:**
+   - **Kies Optie 1 (4 in de auto)** als iedereen het gezellig vindt om samen een tweedaagse roadtrip te maken met overnachtingen in Beieren/Tirol en Speyer.
+   - **Kies Optie 2 (2 auto + 2 vliegen)** als 2 personen opzien tegen 2 lange reisdagen in de auto en liever op maandagochtend in 1,5 uur vliegen, terwijl de andere 2 graag ontspannen rijden met alle bagage.
 
 ---
 
@@ -25,14 +26,14 @@ Na een grondige vergelijking van reistijden, logistiek, comfort en kosten is **O
 
 | Criterium | Optie 1: Iedereen met de Auto (4 pers.) | Optie 2: Hybride (2 Auto + 2 Vliegtuig) | Oorspronkelijk Plan (4 Vliegen + Huurauto) |
 |---|---|---|---|
-| **Vervoermiddel** | 1 auto (4 pers. + 4 fietsen) | 1 auto (2 pers. + 4 fietsen) + Vlucht (2 pers.) | Vlucht (4 pers.) + Grote huurauto |
+| **Vervoermiddel** | 1 auto (4 pers. + optioneel 2 fietsen) | 1 auto (2 pers. + optioneel 2 fietsen) + Vlucht (2 pers.) | Vlucht (4 pers.) + Grote huurauto |
 | **Vluchtkosten** | € 0 | ca. € 180 (2 retourtickets basistarief) | ca. € 450 (4 tickets) + € 180 (bagage/stoelen) |
 | **Huurauto ter plaatse** | € 0 (eigen auto ter plaatse) | € 0 (eigen auto ter plaatse) | **ca. € 750** (stationwagen/SUV voor 4 pers.) |
-| **Brandstof & Tol** | ca. € 350 (2.300 km + Oostenrijk/Italië tol) | ca. € 375 (inclusief luchthavenrit) | ca. € 100 (ter plaatse in Italië) |
-| **Overnachtingen heen/terug** | ca. € 330 (2 kamers x 2 nachten incl. ontbijt) | ca. € 170 (1 kamer x 2 nachten incl. ontbijt) | € 0 |
-| **Fietsen** | 4 eigen fietsen gratis mee op drager | 4 eigen fietsen gratis mee in/op auto | Lokale huur (€ 150 - € 200 p.p. per week) |
-| **Geschatte Totaalprijs** | **ca. € 680 (ca. € 170 p.p.)** | **ca. € 725 (ca. € 181 p.p.)** | **ca. € 1.480 (excl. fietshuur!)** |
-| **Reistijd voor reizigers** | 2 ontspannen reisdagen heen & terug | 2 dagen voor autorijders, halve dag voor vliegers | Halve dag reizen (inchecken, vlucht, huurauto ophalen) |
+| **Brandstof & Tol** | ca. € 340 (2.300 km + Oostenrijk/Italië tol) | ca. € 360 (inclusief luchthavenrit) | ca. € 100 (ter plaatse in Italië) |
+| **Overnachtingen heen/terug** | ca. € 360 – € 460 (**2 kamers** x 2 nachten + ontbijt) | ca. € 180 – € 230 (**1 kamer** x 2 nachten + ontbijt) | € 0 |
+| **Fietsen & Bagage** | 2 fietsen op het rek + alle bagage in koffer | 2 fietsen op het rek + alle bagage in de ruime auto | Geen fietsen / Huren ter plaatse |
+| **Geschatte Totaalprijs** | **ca. € 700 – € 800 (ca. € 175 – € 200 p.p.)** | **ca. € 720 – € 770 (ca. € 180 – € 192 p.p.)** | **ca. € 1.480** |
+| **Reiservaring** | Gezellige gezamenlijke roadtrip (2 reisdagen) | 2 reizen ontspannen met de wagen, 2 vliegen snel | Iedereen vliegt + stress bij huurautobalies |
 
 ---
 
