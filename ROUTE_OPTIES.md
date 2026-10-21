@@ -1,193 +1,105 @@
-# 🚗✈️ Reisroute & Transportanalyse: Ingelmunster &rarr; Lago di Ledro
+# 🚗🚂✈️ Reisroute & Transportanalyse: Ingelmunster &rarr; Meer van Bled (Slovenië)
 
-**Periode ter plaatse in Ledro:** Maandag 12 juli 2027 t/m Dinsdag 20 juli 2027 (8 nachten)  
-**Doel aankomst:** Maandag 12 juli rond de middag (~12:00 – 13:00)  
+**Periode ter plaatse in Bled:** Maandag 12 juli 2027 t/m Dinsdag 20 juli 2027 (8 nachten)  
+**Doel aankomst:** Maandag 12 juli rond de middag (~11:30 – 12:30)  
 **Vertrekpunt:** Ingelmunster (West-Vlaanderen)  
-**Bestemming:** Hotel Lido Ledro, Pieve di Ledro (Trentino, Italië)  
-**Gezelschap:** 4 personen  
-**Fietsen & Bagage:** Max. 2 fietsen op de drager (geen specifieke fietsvakantie-verwachting) + 4 stuks bagage  
+**Bestemming:** Grand Hotel Toplice / Hotel Park, Meer van Bled (Gorenjska / Julische Alpen, Slovenië)  
+**Gezelschap:** 4 personen + eventueel 2 fietsen op de drager  
 
 ---
 
-## 🧭 Samenvatting & Belangrijkste Nieuwe Inzichten
+## 🧭 Samenvatting & Belangrijkste Conclusies
 
-Met de verduidelijking dat er **maximaal 2 fietsen meegaan (en er ter plaatse geen specifieke fietsvakantie gepland is)**, verandert de dynamiek tussen de opties aanzienlijk:
+Voor een reis naar het **Meer van Bled** in Slovenië liggen de transportkaarten heel anders (en gunstiger!) dan voor Noord-Italië:
 
-1. **Optie 1 en Optie 2 zijn nu nagenoeg EXACT even duur (ca. € 680 – € 720 voor de hele groep)!**
-   - Waarom? Bij **Optie 2 (Hybride)** reizen er maar 2 personen met de auto. Dat betekent dat er onderweg slechts **1 hotelkamer** (ipv 2 kamers) geboekt hoeft te worden. Die besparing op overnachtingen heft de kosten van de 2 vliegtickets bijna volledig op!
-2. **Zeeën van bagageruimte bij Optie 2:** Met slechts 2 personen in de auto kan de achterbank plat of gebruikt worden voor alle 4 grote koffers/tassen. De 2 vliegers hoeven geen ruimbagagetoeslag te betalen en kunnen vliegen met een gratis kleine rugzak.
-3. **De keuze is nu 100% een kwestie van reisvoorkeur:**
-   - **Kies Optie 1 (4 in de auto)** als iedereen het gezellig vindt om samen een tweedaagse roadtrip te maken met overnachtingen in Beieren/Tirol en Speyer.
-   - **Kies Optie 2 (2 auto + 2 vliegen)** als 2 personen opzien tegen 2 lange reisdagen in de auto en liever op maandagochtend in 1,5 uur vliegen, terwijl de andere 2 graag ontspannen rijden met alle bagage.
+1. **De Autonachttrein (Urlaubs-Express Düsseldorf &rarr; Villach) is hier een échte troef:**
+   - Omdat Villach in het zuidoosten van Oostenrijk ligt, is het vanaf het station in Villach naar het Meer van Bled **slechts 65 km (ca. 45 minuten rijden!)**.
+   - Je rijdt op zondagnamiddag 260 km naar Düsseldorf, laadt de auto in, slaapt in de trein en rijdt maandagochtend om 10:00 na 45 minuutjes al langs het sprookjesachtige meer van Bled!
+2. **De autorit met tussenstop (Beieren / Chiemsee of Salzburg) is uiterst comfortabel en voordelig:**
+   - Dag 1 (zondag 11 juli): Ingelmunster &rarr; Chiemsee / Salzburg (~760 km, ca. 7u45 rijden).
+   - Dag 2 (maandag 12 juli): Chiemsee / Salzburg &rarr; Bled (~230 km, ca. 2u30 rijden via de Tauernautobahn en Karawankentunnel). Vertrek om 08:30 = **aankomst in Bled om 11:30 rond de middag**!
+   - Totale kosten wagen voor 4 personen (brandstof + vignetten Oostenrijk/Slovenië + tunnels + 2 hotelovernachtingen met ontbijt): **ca. € 720 – € 790 totaal** (~€ 180 – € 195 p.p.).
+3. **Vliegen kan comfortabel vanaf Brussel Zaventem (BRU):**
+   - Brussels Airlines heeft rechtstreekse vluchten van **Brussel Zaventem (BRU) naar Ljubljana Jože Pučnik Airport (LJU)**.
+   - Vanaf Ljubljana Airport naar het Meer van Bled is het slechts **35 km (ca. 25 minuten)**!
 
 ---
 
-## 📊 Uitgebreide Vergelijking van de Opties
+## 📊 Vergelijkingstabel der Opties (Bled 2027)
 
-| Criterium | Optie 1: Iedereen met de Auto (4 pers.) | Optie 2: Hybride (2 Auto + 2 Vliegtuig) | Oorspronkelijk Plan (4 Vliegen + Huurauto) |
+| Criterium | Optie 1: Auto met Tussenstop (4 pers.) | Optie 2: Autonachttrein (UEX Düsseldorf &rarr; Villach) | Optie 3: Vlucht BRU &rarr; Ljubljana (4 pers. + Huurauto) |
 |---|---|---|---|
-| **Vervoermiddel** | 1 auto (4 pers. + optioneel 2 fietsen) | 1 auto (2 pers. + optioneel 2 fietsen) + Vlucht (2 pers.) | Vlucht (4 pers.) + Grote huurauto |
-| **Vluchtkosten** | € 0 | ca. € 180 (2 retourtickets basistarief) | ca. € 450 (4 tickets) + € 180 (bagage/stoelen) |
-| **Huurauto ter plaatse** | € 0 (eigen auto ter plaatse) | € 0 (eigen auto ter plaatse) | **ca. € 750** (stationwagen/SUV voor 4 pers.) |
-| **Brandstof & Tol** | ca. € 340 (2.300 km + Oostenrijk/Italië tol) | ca. € 360 (inclusief luchthavenrit) | ca. € 100 (ter plaatse in Italië) |
-| **Overnachtingen heen/terug** | ca. € 360 – € 460 (**2 kamers** x 2 nachten + ontbijt) | ca. € 180 – € 230 (**1 kamer** x 2 nachten + ontbijt) | € 0 |
-| **Fietsen & Bagage** | 2 fietsen op het rek + alle bagage in koffer | 2 fietsen op het rek + alle bagage in de ruime auto | Geen fietsen / Huren ter plaatse |
-| **Geschatte Totaalprijs** | **ca. € 700 – € 800 (ca. € 175 – € 200 p.p.)** | **ca. € 720 – € 770 (ca. € 180 – € 192 p.p.)** | **ca. € 1.480** |
-| **Reiservaring** | Gezellige gezamenlijke roadtrip (2 reisdagen) | 2 reizen ontspannen met de wagen, 2 vliegen snel | Iedereen vliegt + stress bij huurautobalies |
+| **Vervoermiddel** | 1 auto (4 pers. + optioneel 2 fietsen) | 1 auto op nachttrein + slaapcoupé | Vlucht (Brussels Airlines) + Huurauto |
+| **Trein- / Vliegtickets** | € 0 | ca. € 1.250 – € 1.500 (retour 4 pers. couchette + wagen) | ca. € 700 – € 900 (4 retourtickets) |
+| **Huurauto ter plaatse** | € 0 (eigen wagen ter plaatse) | € 0 (eigen wagen ter plaatse) | ca. € 550 – € 700 (compacte SUV/stationwagen) |
+| **Brandstof, Tol & Tunnels** | ca. € 380 (2.350 km retour + vignetten & tunnels) | ca. € 120 (rit Düsseldorf + Karawankentunnel) | ca. € 60 (lokaal in Slovenië) |
+| **Hotelovernachting onderweg** | ca. € 360 – € 440 (2 kamers x 2 nachten + ontbijt) | € 0 (je slaapt op de trein) | € 0 |
+| **Fietsen meenemen** | 2 eigen fietsen gratis mee op trekhaakdrager | Beperkt (hoogte/lengte restricties op treinwagon) | Geen eigen fietsen (lokaal huren) |
+| **Geschatte Totaalprijs** | **ca. € 740 – € 820 (~€ 185 – € 205 p.p.)** | **ca. € 1.370 – € 1.620 (~€ 340 – € 405 p.p.)** | **ca. € 1.310 – € 1.660 (~€ 330 – € 415 p.p.)** |
+| **Reiscomfort** | Zeer ontspannen roadtrip, stops aan Chiemsee & Neurenberg | Unieke ervaring, geen kilometers malen, 's ochtends fris aankomen | Snelste reistijd voor wie vliegen prefereert |
 
 ---
 
-## 🚗 Optie 1: Iedereen met de Auto (Aanbevolen)
+## 🚗 Optie 1: Met de Auto via Beieren & Salzburg (Aanbevolen)
 
-### De Route (1.090 km enkel):
-- **Traject:** Ingelmunster &rarr; Gent (E40) &rarr; Brussel &rarr; Luik &rarr; Aken &rarr; Koblenz (A61) &rarr; Hockenheim &rarr; Stuttgart / Ulm (A8) &rarr; Allgäu / Füssen (A7) &rarr; Fernpass (B179) &rarr; Innsbruck &rarr; Brennerautobaan (A13) &rarr; Bolzano &rarr; Rovereto Sud / Lago di Garda Nord &rarr; Riva del Garda &rarr; SS240 &rarr; Pieve di Ledro.
-- **Waarom deze route boven Frankrijk/Zwitserland?**
-  - Duitsland is tolvrij voor personenwagens.
-  - Geen urenlange wachttijden voor de beruchte Gotthardtunnel.
-  - Schitterende Alpenpanorama's via de Fernpass en Brenner.
-  - Aankomst via Riva del Garda en de rotsgalerijen naar het Ledrodal is fenomenaal.
+### De Route (1.150 km enkel):
+- **Traject:** Ingelmunster &rarr; Gent (E40) &rarr; Brussel &rarr; Luik &rarr; Aken &rarr; Keulen / Frankfurt (A3) &rarr; Neurenberg &rarr; München (A9) &rarr; Chiemsee / Salzburg (A8) &rarr; Tauernautobahn (A10 door Oostenrijk) &rarr; Villach &rarr; Karawankentunnel (A11 / A2) &rarr; afrit Lesce/Bled &rarr; **Meer van Bled**.
+- **Wegkwaliteit:** Bijna 100% ononderbroken autosnelweg. Uitstekend onderhouden, prachtig berglandschap door de Oostenrijkse Alpen (Hohe Tauern).
 
 ### Tijdsschema Heenreis (Aankomst rond middag):
-- **Zondag 11 juli 2027 (Etappe 1: ~740 km, ca. 7u30 zuivere rijtijd):**
-  - **08:30:** Vertrek vanuit Ingelmunster met fietsen op de drager.
-  - **12:30:** Middagpauze langs de Duitse snelweg (bijv. Pfalz / Rhein-Neckar).
-  - **17:00 – 17:30:** Aankomst in **Füssen / Schwangau** (Beieren) of **Reutte** (Tirol).
-  - **Avond:** Gezellige wandeling met uitzicht op Slot Neuschwanstein of de Tiroolse bergen. Diner in een traditioneel Beiers/Oostenrijks *Gasthof* (bijv. lokaal biertje, schnitzel, knödel). Goede nachtrust.
-- **Maandag 12 juli 2027 (Etappe 2: ~345 km, ca. 4u15 zuivere rijtijd):**
-  - **07:30:** Stevig bergontbijt in het hotel.
-  - **08:00:** Vertrek via de Fernpass en de Brennerautobaan.
-  - **11:30:** Afslag Rovereto Sud, afdaling naar Riva del Garda met uitzicht op het Gardameer.
-  - **12:15 – 12:30:** **Aankomst bij Hotel Lido Ledro in Pieve di Ledro!**
-  - Tijd voor lunch aan het meer, inchecken en een eerste namiddagduik in het turquoise water.
+- **Zondag 11 juli 2027 (Etappe 1: Ingelmunster &rarr; Chiemsee / Salzburg - ca. 760 km, 7u45 rijtijd):**
+  - **08:30:** Vertrek vanuit Ingelmunster met bagage en eventueel 2 fietsen op de drager.
+  - **12:30:** Middagpauze langs de Duitse snelweg (regio Würzburg / Frankfurt).
+  - **17:15 – 17:30:** Aankomst in de regio **Chiemsee (Beierse Zee)** of **Salzburg**:
+    - *Aanrader:* Overnachten aan de Chiemsee (bijv. Prien am Chiemsee of Bernau) met gezellige biertuinen aan het water en uitzicht op de Beierse Alpen.
+    - *Avond:* Heerlijk Beiers diner met lokaal gebrouwen bier, wandeling langs het meer, ontspannen nachtrust.
+- **Maandag 12 juli 2027 (Etappe 2: Chiemsee &rarr; Meer van Bled - ca. 240 km, 2u30 rijtijd):**
+  - **08:00:** Ontbijtbuffet in het hotel.
+  - **08:45:** Vertrek richting de Tauernautobahn (A10) en Villach.
+  - **10:45:** Doortocht van de Karawankentunnel naar Slovenië.
+  - **11:30 – 11:45:** **Aankomst bij het hotel aan het Meer van Bled!**
+  - Perfect op tijd om in te checken, de eerste *Blejska kremšnita* (Bled roomtaart) te proeven op het panoramaterras en een middagwandeling rond het meer te maken.
 
 ### Tijdsschema Terugreis:
-- **Dinsdag 20 juli 2027 (Etappe 1 terug: ~600 km):**
-  - **10:00:** Uitchecken Hotel Lido Ledro na ontbijt.
-  - Rit noordwaarts over de Brennerpas.
-  - **17:00:** Overnachting in de historische keizerstad **Speyer** (Rijnland-Palts) of **Heidelberg / Neckardal**:
-    - Prachtige historische binnensteden, gezellige autovrije terrassen, uitstekende wijnen en zeer betaalbare familiehotels.
-- **Woensdag 21 juli 2027 (Etappe 2 terug: ~490 km, ca. 4u45 rijtijd):**
+- **Dinsdag 20 juli 2027 (Etappe 1 terug: Bled &rarr; Regio Neurenberg / Taubertal - ca. 600 km):**
+  - **10:00:** Uitchecken na een ontspannen ontbijt aan het water.
+  - **17:00:** Overnachting in een historisch Duits stadje (bijv. **Neurenberg**, **Rothenburg ob der Tauber** of **Bamberg**). Prachtige vakwerkhuizen, gezellige terrassen.
+- **Woensdag 21 juli 2027 (Etappe 2 terug: Neurenberg &rarr; Ingelmunster - ca. 550 km):**
   - **09:00:** Vertrek na ontbijt.
-  - **14:00 – 14:30:** Thuis in Ingelmunster, zonder files of stress.
+  - **14:30 – 15:00:** Veilig thuis in Ingelmunster.
 
-### Tol & Vignetten Kosten (Heen + Terug):
+### Tol, Vignetten & Tunnelkosten (Heen + Terug):
 - Duitsland: **€ 0** (geen tol)
 - Oostenrijk Vignet (10-dagen digitaal vignet): **€ 11,50**
-- Brennerpas (A13 Streckenmaut / Videomaut digitaal): 2 x € 11,00 = **€ 22,00**
-- Italië Autostrada (Brenner tot Rovereto Sud): 2 x ca. € 16,50 = **€ 33,00**
-- **Totale tolkosten:** **ca. € 66,50** voor de gehele reis!
+- Tauerntunnel & Katschbergtunnel (A10 Videomaut): 2 x € 13,50 = **€ 27,00**
+- Karawankentunnel (Oostenrijk &rarr; Slovenië): 2 x € 8,20 = **€ 16,40**
+- Slovenië E-Vignet (Maandvignet voor personenwagen klasse 2A): **€ 32,00**
+- **Totale tolkosten voor de hele reis:** **ca. € 86,90**
 
 ---
 
-## ✈️🚗 Optie 2: Hybride (2 Auto + 2 Vliegtuig)
+## 🚂🚗 Optie 2: De Autonachttrein (Urlaubs-Express Düsseldorf &rarr; Villach)
 
-### De Rol van de Auto (2 personen):
-- Vertrekt zondag 11 juli met:
-  - **Alle 4 koffers / weekendtassen** in de ruime kofferbak.
-  - **Alle 4 fietsen** op de fietsendrager.
-  - Overnachting zondagavond in Füssen/Reutte.
-- Rijdt maandagochtend door naar Italië om de vliegers op te pikken.
-
-### De Rol van de Vliegers (2 personen):
-- **Geen ingecheckte ruimbagage nodig:** Omdat alle kleren, toiletzakken en fietsen al in de auto liggen, reizen de vliegers met enkel een gratis kleine rugzak. Geen bagagetoeslagen en geen wachttijd aan de bagageband!
-- **Factcheck Luchthavens & Bereikbaarheid vanuit West-Vlaanderen:**
-  1. **Oostende-Brugge Airport (OST):** Geen optie. TUI fly voert vanaf Oostende **geen enkele vlucht naar Italië** uit (enkel Spanje, Griekenland, Canarische Eilanden).
-  2. **Lille-Lesquin Airport (LIL):** Vliegt naar Zuid-Italië (Bari, Palermo) en Rome, maar heeft **geen vluchten naar Noord-Italië**.
-  3. **Brussels South Charleroi (CRL):** Heeft wel directe budgetvluchten naar Verona (VRN) en Bergamo (BGY), maar is vanuit West-Vlaanderen lastig bereikbaar (files, pendelparkings, chaotische terminal). Als de vliegers er tegenop zien om dit traject alleen af te leggen, levert dit vooraf stress op.
-  4. **Brussel Zaventem (BRU):** Zeer comfortabel (rechtstreekse trein Izegem/Kortrijk tot onder de vertrekhal), directe vluchten met Brussels Airlines naar Milaan Linate (LIN). Maar: Linate ligt 180 km ten westen van Ledro, wat betekent dat de auto flink moet omrijden of de vliegers ter plaatse nog op een Italiaanse trein moeten stappen.
-  5. **Brescia Montichiari (VBS):** Geen optie (uitsluitend vracht/DHL, geen passagiersdiensten).
+Voor Slovenië is de autotrein een **zeer interessante en comfortabele belevenis**:
+- **Waarom?** Villach ligt op slechts **65 km van het Meer van Bled**.
+- **Hoe verloopt de reis?**
+  1. **Zondag 11 juli 2027:**
+     - **14:00:** Vertrek vanuit Ingelmunster &rarr; Düsseldorf laadstation (260 km, ca. 2u45 rijden).
+     - **17:00:** Aanmelden bij het autolaadterminal van Düsseldorf Hbf. De auto wordt op de autowagon gereden.
+     - **19:00:** Instappen in het ligrijtuig (privé-couchette voor jullie 4). Drankje in de bar/bistrowagon, gezelligheid en ontspannen slapen terwijl de trein door Duitsland en Oostenrijk raast.
+  2. **Maandag 12 juli 2027:**
+     - **08:30 – 09:30:** Wakker worden met uitzicht op de Oostenrijkse Alpen rond de Tauern. Ontbijt in de coupé.
+     - **09:45:** Aankomst in Villach Hbf. Auto van de trein rijden (ca. 30 min).
+     - **10:30:** Vertrek vanaf Villach. Slechts 10 km snelweg naar de Karawankentunnel, en direct na de tunnel ben je in Slovenië.
+     - **11:15:** **Aankomst bij het hotel aan het Meer van Bled!** Fris, uitgerust en zonder een meter snelwegstress.
+- **Kosten:** Reken op ca. **€ 1.250 – € 1.500 retour** voor 4 personen + wagen in een eigen 4-persoons slaapcoupé.
 
 ---
 
-## 💡 Geverifieerde Hotels voor Tussenstops (4 personen = 2 Tweepersoonskamers)
+## ✈️ Optie 3: Vlucht Brussel Zaventem (BRU) &rarr; Ljubljana (LJU)
 
-Omdat jullie met 4 personen reizen en **maximaal 2 fietsen achterop de auto** hebben (of eventueel zonder fietsen reizen), zijn de selectiecriteria:
-- **2 comfortabele tweepersoonskamers**
-- **Veilige, ruime parkeergelegenheid** voor de wagen met fietsendrager (idealiter afgesloten fietsparking/garage)
-- **Uitgebreid ontbijt** voor een energieke start
-- **Uitstekende prijs-kwaliteitverhouding in het hoogseizoen (juli)**
-
----
-
-### 1. Heenweg (Zondag 11 juli 2027) – Regio Füssen / Reutte (~740 km vanaf Ingelmunster)
-
-#### 🌟 Keuze 1 (Tip voor fietsers!): Hotel Goldene Rose (Lechaschau / Reutte, Tirol)
-- **Ligging:** Net over de grens in Oostenrijk (3 km van Füssen), aan de voet van de Alpen en het begin van de Fernpass.
-- **Kamers:** 2 tweepersoonskamers (*Standard* of *Comfort* met eigen sanitair).
-- **Prijs juli (2 kamers):** ca. **€ 280 – € 340 totaal** (€ 140 – € 170 per kamer) inclusief uitgebreid Tirools ontbijtbuffet.
-- **Parkeren & Fietsen:** **Gratis privéparking én een afgesloten fietsengarage!** Dit is ideaal om de 4 fietsen veilig op te bergen voor de nacht.
-- **Extra:** Gratis toegang tot de wellness (sauna & stoombad) om na 7,5 uur rijden lekker te ontspannen.
-- **Afstand tot Ledro:** 320 km (~4u rijden). Maandag vertrek om 08:00 = **12:00 aankomst in Ledro**.
-
-#### 💰 Keuze 2 (Beste Budgetoptie): Alpenmotel Säuling (Pinswang / Reutte, Tirol)
-- **Ligging:** In het rustige bergdorpje Pinswang, 5 km ten zuiden van Füssen en Neuschwanstein.
-- **Kamers:** 2 tweepersoonskamers met balkon en bergzicht.
-- **Prijs juli (2 kamers):** ca. **€ 190 – € 250 totaal** (€ 95 – € 125 per kamer).
-- **Parkeren & Fietsen:** **Gratis grote privéparking direct voor het motel.** Zeer overzichtelijk en rustig gelegen dal, populair bij doorreizigers met fietsen/dakkoffers.
-- **Ontbijt:** Dagelijks ontbijt beschikbaar (koffie, broodjes, yoghurt, ontbijtgranen).
-- **Afstand tot Ledro:** 330 km (~4u05 rijden).
-
-#### 🏰 Keuze 3 (Sfeervolle Historische Stad): Villa Fantasia Budget Boutique Hotel (Füssen, Beieren)
-- **Ligging:** Direct in het gezellige oude centrum van Füssen, op loopafstand van terrasjes en Beierse *Biergärten*.
-- **Kamers:** 2 tweepersoonskamers in een charmante Jugendstil-villa met uitzicht op de binnentuin of het slot.
-- **Prijs juli (2 kamers):** ca. **€ 240 – € 300 totaal** (€ 120 – € 150 per kamer).
-- **Parkeren:** Eigen privéparkeerplaats bij het hotel (ca. € 6 – € 8 per nacht).
-- **Ontbijt:** Rijk ontbijtbuffet bij te boeken of inbegrepen.
-- **Afstand tot Ledro:** 345 km (~4u15 rijden).
-
----
-
-### 2. Terugweg (Dinsdag 20 juli 2027) – Regio Speyer / Pfalz (~600 km vanaf Ledro)
-
-#### 🌟 Keuze 1 (Absolute Aanrader): Hotel Speyer am Technik Museum (Speyer, Rijnland-Palts)
-- **Ligging:** Direct aan de B9 / A61, op slechts 10 minuten wandelen van de beroemde romaanse keizerdom van Speyer en de historische terrassen.
-- **Kamers:** 2 moderne, ruime tweepersoonskamers.
-- **Prijs juli (2 kamers):** ca. **€ 180 – € 250 totaal** (€ 90 – € 125 per kamer) inclusief uitstekend ontbijtbuffet.
-- **Parkeren & Fietsen:** **Enorm, veilig privéparkeerterrein direct bij het hotel, volledig GRATIS.** Geen manoeuvreerstress met fietsendrager, auto staat veilig op het eigen terrein.
-- **Sfeer:** Speyer is een prachtige, zonnige stad aan de Rijn met gezellige wijnbars en terrassen.
-- **Afstand naar huis:** Nog slechts 490 km (~4u45 rijden). Woensdag vertrek om 09:00 = **14:00 thuis in Ingelmunster**.
-
-#### 🍷 Keuze 2 (Centrum & Wijnstreek): Hotel Löwengarten (Speyer)
-- **Ligging:** Rustig gelegen aan de rand van het stadscentrum van Speyer.
-- **Kamers:** 2 klassieke tweepersoonskamers.
-- **Prijs juli (2 kamers):** ca. **€ 220 – € 270 totaal** (€ 110 – € 135 per kamer), ontbijt ca. € 18 p.p.
-- **Parkeren:** Eigen parkeerplaatsen (€ 5/nacht).
-- **Sfeer:** Eigen restaurant met Pfälzer wijnen en seizoensgerechten.
-
----
-
-## 🚂🚗 Factcheck: De Autonachttrein (Autozug / Motorail)
-
-Is het mogelijk om de wagen op een nachttrein te laden en ontspannen naar Italië te sporen?
-
-### 1. Situatie in België & Frankrijk:
-- **Bestaat niet meer.** Zowel in België (NMBS), Frankrijk (SNCF Auto-Train) als Nederland zijn alle autoslaaptreinen al jaren geleden volledig opgeheven.
-- De **ÖBB Nightjet** nachttrein rijdt weliswaar vanuit Brussel-Zuid naar Oostenrijk, maar vervoert **uitsluitend passagiers (géén auto's)**.
-
-### 2. De dichtstbijzijnde optie: Urlaubs-Express (UEX) vanuit Düsseldorf
-De enige actieve aanbieder van autotreinen in onze regio is de Duitse particuliere maatschappij **Urlaubs-Express (UEX)** vanaf het autolaadstation in **Düsseldorf** (~260 km / 2u45 rijden vanaf Ingelmunster).
-
-### 3. Belangrijke knelpunten voor Lago di Ledro:
-- **Routes naar Verona en Innsbruck zijn AFGESCHAFT:**
-  - De historische autotrein naar **Verona** rijdt al geruime tijd niet meer.
-  - De autotrein naar **Innsbruck** is stopgezet wegens de langdurige sloop en herinrichting van de autolaadterminals in Innsbruck Hauptbahnhof.
-  - De **enige overgebleven zomerdestinatie** vanaf Düsseldorf richting de Alpen is **Villach (Karinthië, Zuidoost-Oostenrijk)**.
-- **Logistieke omweg:**
-  - Villach ligt helemaal in het zuidoosten van Oostenrijk (tegen de Sloveense grens).
-  - Vanaf Villach naar Lago di Ledro is het alsnog **ca. 390 km (4,5 à 5 uur zuivere rijtijd)** via Udine, Venetië en Verona!
-  - **Je rijdt in totaal:** 260 km naar Düsseldorf + 390 km vanaf Villach = **650 km zelf rijden per enkele reis** (1.300 km retour). De complete rechtstreekse autorit vanuit Ingelmunster is 1.090 km. Je bespaart dus nauwelijks kilometers en maakt een enorme omweg.
-- **Strikte restricties voor fietsendragers:**
-  - Autotransportwagens op het spoor hebben strenge hoogtebeperkingen (max. 1,55m tot 1,95m). Een fietsendrager achterop maakt de auto langer en leidt vaak tot dure toeslagen of weigering bij volle treinen. Fietsen op het dak zijn strikt verboden wegens de hoogspanningsbovenleiding.
-
-### 4. Prijzen van de Autotrein (Hoogseizoen juli, 4 personen + auto):
-- **Passagierstickets (ligrijtuig / couchette voor 4 pers.):** ca. € 350 – € 500 per enkele reis.
-- **Wagenvervoer (Autoverladung):** ca. € 200 – € 280 per enkele reis.
-- **Totaalprijs enkele reis:** ca. **€ 550 – € 780**
-- **Totaalprijs heen & terug:** ca. **€ 1.100 – € 1.550** (enkel de trein!).
-- Tel daar nog de brandstof en tol bij voor de 1.300 km die je alsnog zelf moet rijden (~€ 200), en de totale reiskost bedraagt **ca. € 1.300 – € 1.750**.
-
-### 💡 Conclusie Autonachttrein:
-De autonachttrein is voor Lago di Ledro helaas **geen realistisch of logisch alternatief**:
-1. Hij kost **meer dan het dubbele** van zelf rijden met hotelovernachtingen.
-2. Je moet alsnog **650 km zelf rijden** en 2 uur vooraf aanwezig zijn in Düsseldorf voor het inladen.
-3. Je komt aan in het uiterste oosten van Oostenrijk (Villach), ver uit de richting van Trentino.
+- **Luchtvaartmaatschappij:** Brussels Airlines (SN) vliegt rechtstreeks van **Brussel Zaventem (BRU) naar Ljubljana (LJU)**.
+- **Vluchttijd:** Slechts **1 uur en 45 minuten**.
+- **Afstand van vliegveld naar Bled:** Slechts **35 km (25 minuten rijden over de snelweg A2)**.
+- **Huurauto:** Een compacte SUV of middenklasse auto ophalen op de rustige luchthaven van Ljubljana is snel en overzichtelijk (veel minder hectisch dan Italiaanse luchthavens).
+- **Geschikt voor:** Reizigers die maximaal tijd willen winnen en binnen 4 uur van voordeur tot hotel aan het meer willen staan.

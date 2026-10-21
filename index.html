@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lago di Ledro & Noord-Italië | Luxe Reisbrochure 2027</title>
-  <meta name="description" content="Exclusieve reisbrochure en compleet weekprogramma voor Lago di Ledro, Gardameer en Iseomeer (13 – 20 juli 2027). Verblijf in Hotel Lido Ledro." />
+  <title>Meer van Bled & Julische Alpen | Luxe Reisbrochure 2027</title>
+  <meta name="description" content="Exclusieve reisbrochure en compleet weekprogramma voor het Meer van Bled, Meer van Bohinj en Triglav Nationaal Park in Slovenië (12 – 20 juli 2027)." />
   
   <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,17 +23,18 @@
         extend: {
           colors: {
             lake: {
-              50: '#f0fdfa',
-              100: '#ccfbf1',
-              500: '#14b8a6',
-              700: '#0f766e',
-              800: '#115e59',
-              900: '#134e4a',
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
             },
             alpine: {
-              cream: '#FAF8F5',
-              sand: '#F2ECE4',
-              navy: '#0C1B2A',
+              cream: '#FAF9F5',
+              sand: '#F3EFEA',
+              navy: '#0A1C2A',
               slate: '#1E293B',
               terracotta: '#C86D51',
               olive: '#2D4A3E',
@@ -50,347 +51,223 @@
   </script>
 
   <style>
-    /* Custom Luxury Styling */
-    body {
-      background-color: #FAF8F5;
-      color: #1E293B;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-    }
-    
-    .font-serif-luxury {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-    }
-
-    /* Print Optimization: Produces an editorial magazine layout */
     @media print {
+      nav, footer, .no-print, #videoModal {
+        display: none !important;
+      }
       body {
         background: white !important;
         color: black !important;
-        font-size: 11pt !important;
       }
-      .no-print {
-        display: none !important;
-      }
-      .print-break-inside-avoid {
-        page-break-inside: avoid;
-        break-inside: avoid;
-      }
-      .print-break-before {
+      .page-break {
         page-break-before: always;
-        break-before: page;
       }
-      a {
-        text-decoration: none !important;
-        color: inherit !important;
-      }
-      .shadow-xl, .shadow-2xl, .shadow-lg {
-        box-shadow: none !important;
-        border: 1px solid #e2e8f0 !important;
-      }
-    }
-
-    /* Subtle Glassmorphism */
-    .glass-nav {
-      background: rgba(250, 248, 245, 0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-    }
-    
-    .glass-card {
-      background: rgba(255, 255, 255, 0.9);
-      backdrop-filter: blur(8px);
-    }
-
-    /* Custom Scrollbar */
-    ::-webkit-scrollbar {
-      width: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #FAF8F5;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #C5A059;
-      border-radius: 4px;
     }
   </style>
 </head>
-<body class="selection:bg-alpine-gold selection:text-white antialiased">
+<body class="bg-alpine-cream text-slate-800 font-sans antialiased selection:bg-lake-500 selection:text-white">
 
-  <!-- ================= TOP NAVIGATION BAR ================= -->
-  <header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-alpine-sand/70 transition-all duration-300 no-print" id="navbar">
+  <!-- ================= NAVBAR ================= -->
+  <header class="fixed top-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md border-b border-alpine-sand transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-full bg-alpine-navy flex items-center justify-center text-alpine-gold group-hover:scale-105 transition-transform">
-          <i data-lucide="compass" class="w-5 h-5"></i>
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-full bg-lake-800 flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform">
+          <i data-lucide="mountain-snow" class="w-5 h-5 text-lake-100"></i>
         </div>
         <div>
-          <span class="block text-xs uppercase tracking-widest text-alpine-gold font-semibold">Reisbrochure</span>
-          <span class="font-serif-luxury text-xl font-bold tracking-tight text-alpine-navy">Lago di Ledro &middot; 2027</span>
+          <span class="block font-serif text-xl sm:text-2xl font-bold tracking-tight text-alpine-navy">BLED & JULISCHE ALPEN</span>
+          <span class="block text-xs uppercase tracking-widest text-lake-700 font-semibold">Slovenië • Zomer 2027</span>
         </div>
       </a>
 
-      <!-- Desktop Links -->
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
-        <a href="#overzicht" class="hover:text-alpine-gold transition-colors">Overzicht</a>
-        <a href="#verblijf" class="hover:text-alpine-gold transition-colors">Hotel Lido</a>
-        <a href="#videos" class="hover:text-alpine-gold transition-colors">Video's</a>
-        <a href="#programma" class="hover:text-alpine-gold transition-colors">Dagprogramma</a>
-        <a href="#culinair" class="hover:text-alpine-gold transition-colors">Gastronomie</a>
-        <a href="#praktisch" class="hover:text-alpine-gold transition-colors">Praktisch</a>
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-700">
+        <a href="#overzicht" class="hover:text-lake-700 transition-colors">Overzicht</a>
+        <a href="#verblijf" class="hover:text-lake-700 transition-colors">Verblijf</a>
+        <a href="#videos" class="hover:text-lake-700 transition-colors">Video's</a>
+        <a href="#programma" class="hover:text-lake-700 transition-colors">Programma</a>
+        <a href="#culinair" class="hover:text-lake-700 transition-colors">Culinair</a>
+        <a href="#praktisch" class="hover:text-lake-700 transition-colors">Praktisch</a>
       </nav>
 
-      <!-- Action Buttons -->
-      <div class="flex items-center gap-3">
-        <button onclick="window.print()" class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-alpine-gold/50 bg-white hover:bg-alpine-sand/40 text-xs font-semibold uppercase tracking-wider text-alpine-navy shadow-sm transition-all hover:scale-102">
-          <i data-lucide="printer" class="w-4 h-4 text-alpine-gold"></i>
+      <div class="flex items-center space-x-4">
+        <button onclick="window.print()" class="no-print inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-alpine-navy text-white text-xs sm:text-sm font-medium hover:bg-lake-800 transition-colors shadow-sm">
+          <i data-lucide="printer" class="w-4 h-4"></i>
           <span class="hidden sm:inline">Print / PDF</span>
         </button>
-        <a href="#programma" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-alpine-navy hover:bg-alpine-olive text-white text-xs font-semibold uppercase tracking-wider shadow-md transition-all hover:shadow-lg hover:scale-102">
-          <i data-lucide="calendar" class="w-4 h-4 text-alpine-gold"></i>
-          <span>Reisschema</span>
-        </a>
       </div>
     </div>
   </header>
 
-  <!-- ================= HERO COVER SECTION ================= -->
+  <!-- ================= HERO SECTION ================= -->
   <section class="relative min-h-[92vh] flex items-center justify-center pt-24 pb-16 overflow-hidden">
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0 z-0">
       <img 
-        src="https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=2000&auto=format&fit=crop" 
-        alt="Turquoise Alpine Lake surrounded by mountains" 
-        class="w-full h-full object-cover object-center filter brightness-95 scale-105 animate-pulse-slow"
+        src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?q=80&w=2070&auto=format&fit=crop" 
+        alt="Meer van Bled Slovenië met eiland en kasteel" 
+        class="w-full h-full object-cover object-center transform scale-105 duration-1000"
       />
-      <div class="absolute inset-0 bg-gradient-to-t from-alpine-navy via-alpine-navy/50 to-alpine-navy/30"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-alpine-navy/70 via-alpine-navy/50 to-alpine-cream"></div>
     </div>
 
-    <!-- Content -->
-    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center text-white mt-12">
-      <!-- Badge -->
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-alpine-gold text-xs font-semibold tracking-widest uppercase mb-6">
-        <i data-lucide="sparkles" class="w-4 h-4"></i>
-        <span>Exclusief Reispakket &middot; Trentino, Italië</span>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-10">
+      <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white text-xs sm:text-sm tracking-wider uppercase mb-6">
+        <i data-lucide="calendar" class="w-4 h-4 text-emerald-300"></i>
+        <span>12 – 20 Juli 2027 • 8 Nachten</span>
       </div>
 
-      <!-- Main Title -->
-      <h1 class="font-serif-luxury text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
-        Lago di Ledro
+      <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight drop-shadow-sm">
+        Het Sprookjesmeer van <br /><span class="italic font-normal text-emerald-200">Bled & de Julische Alpen</span>
       </h1>
-      <p class="font-serif-luxury italic text-xl sm:text-2xl md:text-3xl text-emerald-100 max-w-3xl mx-auto mb-8 font-light">
-        Spiegelgladde turquoise meren, panoramische rotspaden en authentieke Italiaanse berggastronomie.
+
+      <p class="max-w-2xl mx-auto text-base sm:text-xl text-slate-100 font-light leading-relaxed mb-10 drop-shadow">
+        Een reis vol smaragdgroene meren, traditionele houten pletna-boten, ruige kloven in het Triglav Nationaal Park, en de verfijnde alpengastronomie van Slovenië.
       </p>
 
-      <!-- Meta Bar -->
-      <div class="inline-flex flex-wrap items-center justify-center gap-4 sm:gap-8 p-4 sm:p-6 rounded-2xl bg-white/15 backdrop-blur-lg border border-white/25 text-left text-sm text-white mb-10 shadow-2xl">
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center text-alpine-gold">
-            <i data-lucide="calendar-days" class="w-5 h-5"></i>
-          </div>
-          <div>
-            <div class="text-[10px] uppercase tracking-wider text-slate-300">Reisperiode</div>
-            <div class="font-semibold text-white">13 – 20 juli 2027</div>
-          </div>
+      <!-- Key Metrics Strip -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto bg-white/10 backdrop-blur-md p-4 sm:p-6 rounded-2xl border border-white/20 text-white mb-10">
+        <div class="text-center border-r border-white/20 last:border-0">
+          <div class="text-2xl sm:text-3xl font-bold font-serif">12 – 20</div>
+          <div class="text-xs uppercase tracking-wider text-slate-200 mt-1">Juli 2027</div>
         </div>
-
-        <div class="h-8 w-px bg-white/20 hidden sm:block"></div>
-
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center text-alpine-gold">
-            <i data-lucide="hotel" class="w-5 h-5"></i>
-          </div>
-          <div>
-            <div class="text-[10px] uppercase tracking-wider text-slate-300">Verblijf</div>
-            <div class="font-semibold text-white">Hotel Lido Ledro (****)</div>
-          </div>
+        <div class="text-center sm:border-r border-white/20">
+          <div class="text-2xl sm:text-3xl font-bold font-serif">8 Nachten</div>
+          <div class="text-xs uppercase tracking-wider text-slate-200 mt-1">Aan het meer</div>
         </div>
-
-        <div class="h-8 w-px bg-white/20 hidden sm:block"></div>
-
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center text-alpine-gold">
-            <i data-lucide="map-pin" class="w-5 h-5"></i>
-          </div>
-          <div>
-            <div class="text-[10px] uppercase tracking-wider text-slate-300">Regio</div>
-            <div class="font-semibold text-white">Trentino &middot; Garda &middot; Iseo</div>
-          </div>
+        <div class="text-center border-r border-white/20 last:border-0">
+          <div class="text-2xl sm:text-3xl font-bold font-serif">4 Pers.</div>
+          <div class="text-xs uppercase tracking-wider text-slate-200 mt-1">Gezelschap</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl sm:text-3xl font-bold font-serif">1.535m</div>
+          <div class="text-xs uppercase tracking-wider text-slate-200 mt-1">Top van Vogel</div>
         </div>
       </div>
 
-      <!-- Quick CTAs -->
       <div class="flex flex-wrap items-center justify-center gap-4">
-        <a href="#programma" class="px-8 py-3.5 rounded-full bg-alpine-gold hover:bg-amber-500 text-alpine-navy font-semibold text-sm uppercase tracking-wider shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
+        <a href="#programma" class="px-8 py-3.5 rounded-full bg-lake-600 hover:bg-lake-700 text-white font-semibold text-sm tracking-wide shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
           Bekijk het Reisschema
         </a>
-        <a href="#videos" class="px-8 py-3.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold text-sm uppercase tracking-wider transition-all">
-          <i data-lucide="play-circle" class="w-4 h-4 inline mr-2 text-alpine-gold"></i>
-          Bekijk Referentievideo's
+        <a href="#verblijf" class="px-8 py-3.5 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md text-white font-semibold text-sm tracking-wide border border-white/30 transition-all">
+          Ontdek het Verblijf
         </a>
       </div>
     </div>
-
-    <!-- Scroll Down Hint -->
-    <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white/60 text-xs uppercase tracking-widest flex flex-col items-center gap-2 no-print animate-bounce">
-      <span>Ontdek de reis</span>
-      <i data-lucide="chevron-down" class="w-4 h-4"></i>
-    </div>
   </section>
 
 
-  <!-- ================= HIGHLIGHTS SUMMARY ================= -->
+  <!-- ================= HIGHLIGHTS OVERZICHT ================= -->
   <section id="overzicht" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <span class="text-xs uppercase tracking-widest font-semibold text-alpine-gold">Waarom deze reis uniek is</span>
-      <h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-alpine-navy mt-2">
-        Het Beste van de Alpen & het Gardameer
-      </h2>
-      <div class="w-20 h-0.5 bg-alpine-gold mx-auto my-4"></div>
-      <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
-        Een zorgvuldig uitgebalanceerd programma tussen pure rust aan het ongerepte turquoise water van Valle di Ledro en spectaculaire panoramische hoogtepunten rond het Gardameer en Iseomeer.
+      <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-2">Waarom Slovenië?</span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold text-alpine-navy mb-4">Vier Pijlers van deze Droomreis</h2>
+      <p class="text-slate-600 text-base sm:text-lg">
+        Slovenië is het best bewaarde geheim van Centraal-Europa: kristalheldere gletsjermeren, torenhoge alpentoppen en een veilige, gemoedelijke sfeer.
       </p>
     </div>
 
-    <!-- 4 Value Pillars -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <!-- Card 1 -->
-      <div class="bg-white p-8 rounded-2xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-xl bg-lake-50 text-lake-700 flex items-center justify-center mb-6">
+      <!-- Pijler 1 -->
+      <div class="bg-white p-8 rounded-3xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-12 h-12 rounded-2xl bg-lake-50 text-lake-700 flex items-center justify-center mb-6">
+          <i data-lucide="sailboat" class="w-6 h-6"></i>
+        </div>
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-3">Het Sprookjeseiland</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Met een traditionele houten <em>Pletna</em> naar het eilandje varen, de 99 stenen treden beklimmen en de legendarische wensklok luiden in de Maria Hemelvaartskerk.
+        </p>
+      </div>
+
+      <!-- Pijler 2 -->
+      <div class="bg-white p-8 rounded-3xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-12 h-12 rounded-2xl bg-lake-50 text-lake-700 flex items-center justify-center mb-6">
           <i data-lucide="waves" class="w-6 h-6"></i>
         </div>
-        <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Motorbootvrij Water</h3>
-        <p class="text-sm text-slate-600 leading-relaxed">
-          Op het Ledromeer zijn motorboten verboden. Het resultaat: spiegelglad, kraakhelder water, perfect voor ontspannen suppen, kajakken en ongestoord zwemmen.
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-3">Vintgar & Bohinj</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Wandelen over houten vlonders boven de kolkende Radovna-rivier in de Vintgar-kloof, en per panoramische kabelbaan naar 1.535m op berg Vogel bij het ongerepte Bohinjmeer.
         </p>
       </div>
 
-      <!-- Card 2 -->
-      <div class="bg-white p-8 rounded-2xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-xl bg-amber-50 text-alpine-gold flex items-center justify-center mb-6">
-          <i data-lucide="mountain" class="w-6 h-6"></i>
+      <!-- Pijler 3 -->
+      <div class="bg-white p-8 rounded-3xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-12 h-12 rounded-2xl bg-lake-50 text-lake-700 flex items-center justify-center mb-6">
+          <i data-lucide="cake-slice" class="w-6 h-6"></i>
         </div>
-        <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Strada del Ponale & Baldo</h3>
-        <p class="text-sm text-slate-600 leading-relaxed">
-          E-biken over de wereldberoemde rotsbalkons boven het Gardameer en in een 360° roterende kabelbaan stijgen naar 1.800 meter hoogte op de Monte Baldo.
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-3">Sloveense Gastronomie</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          De wereldberoemde <em>Blejska kremšnita</em> proeven met uitzicht op het meer, verse gletsjerforel, ambachtelijke bergkazen en Michelin-ervaringen in het middeleeuwse Radovljica.
         </p>
       </div>
 
-      <!-- Card 3 -->
-      <div class="bg-white p-8 rounded-2xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-xl bg-emerald-50 text-alpine-olive flex items-center justify-center mb-6">
-          <i data-lucide="utensils-crossed" class="w-6 h-6"></i>
+      <!-- Pijler 4 -->
+      <div class="bg-white p-8 rounded-3xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
+        <div class="w-12 h-12 rounded-2xl bg-lake-50 text-lake-700 flex items-center justify-center mb-6">
+          <i data-lucide="castle" class="w-6 h-6"></i>
         </div>
-        <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Authentieke Slow Food</h3>
-        <p class="text-sm text-slate-600 leading-relaxed">
-          Elke avond met zorg geselecteerde gastronomie: van Polenta di patate alla Ledrense tot verse houtovenpizza's en Carne Salada in traditionele agriturismi.
-        </p>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="bg-white p-8 rounded-2xl border border-alpine-sand shadow-sm hover:shadow-md transition-shadow">
-        <div class="w-12 h-12 rounded-xl bg-orange-50 text-alpine-terracotta flex items-center justify-center mb-6">
-          <i data-lucide="landmark" class="w-6 h-6"></i>
-        </div>
-        <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">UNESCO & Kunst</h3>
-        <p class="text-sm text-slate-600 leading-relaxed">
-          Bezoek het prehistorische Museo delle Palafitte op houten palen en wandel tussen de prikkelende sculpturen van Ledro Land Art en Canale di Tenno.
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-3">Groen Ljubljana</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Slechts 50 minuten rijden naar Europa's groenste hoofdstad: autovrije kades langs de rivier, de Drie Bruggen van Plečnik en gezellige terrassen onder het kasteel.
         </p>
       </div>
     </div>
   </section>
 
 
-  <!-- ================= HOTEL SHOWCASE SECTION ================= -->
+  <!-- ================= HET VERBLIJF ================= -->
   <section id="verblijf" class="py-20 bg-alpine-sand/40 border-y border-alpine-sand">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <!-- Text details -->
-        <div class="lg:col-span-5 space-y-6">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-alpine-olive/10 text-alpine-olive text-xs font-semibold uppercase tracking-wider">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
-            <span>Pieve di Ledro &middot; Direct aan het meer</span>
-          </div>
-
-          <h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-alpine-navy">
-            Hotel Lido Ledro
+        <!-- Left: Text & Features -->
+        <div class="lg:col-span-6">
+          <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-2">Exclusief Verblijf</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold text-alpine-navy mb-6">
+            Grand Hotel Toplice / Hotel Park <br />
+            <span class="italic font-normal text-lake-800 text-2xl sm:text-3xl">Aan de Oever van het Meer van Bled</span>
           </h2>
-          <p class="font-serif-luxury italic text-xl text-alpine-gold">
-            De "Achensee-opzet", maar dan met Italiaanse charme en mediterrane zon.
+          <p class="text-slate-600 text-base sm:text-lg mb-6 leading-relaxed">
+            Wakker worden met een zacht kabbelend meer en uitzicht op het sprookjesachtige eilandje en het middeleeuwse kasteel. Het hotel biedt directe toegang tot de wandelpromenade, een privésteiger aan het water en thermale wellnessbaden.
           </p>
 
-          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-            Hotel Lido ligt direct aan de rustige waterkant in Pieve di Ledro. Vanuit de hoteltuin loop je zo het brede grasstrand op. Houten vlonders en steigers steken ver in het heldere water, geflankeerd door comfortabele ligbedden en parasols.
-          </p>
-
-          <!-- Key Amenities List -->
-          <div class="grid grid-cols-2 gap-4 pt-2">
-            <div class="flex items-center gap-3 text-xs sm:text-sm text-slate-700">
-              <i data-lucide="check-circle-2" class="w-4 h-4 text-lake-700 flex-shrink-0"></i>
-              <span>Direct aan het grasstrand</span>
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start space-x-3">
+              <div class="w-6 h-6 rounded-full bg-lake-100 text-lake-700 flex items-center justify-center mt-1 flex-shrink-0">
+                <i data-lucide="check" class="w-4 h-4"></i>
+              </div>
+              <p class="text-slate-700 text-sm"><strong>Direct aan het water:</strong> Eigen zwemsteiger, ligstoelen en panoramisch terras op enkele meters van het meer.</p>
             </div>
-            <div class="flex items-center gap-3 text-xs sm:text-sm text-slate-700">
-              <i data-lucide="check-circle-2" class="w-4 h-4 text-lake-700 flex-shrink-0"></i>
-              <span>Houten privé-vlonders</span>
+            <div class="flex items-start space-x-3">
+              <div class="w-6 h-6 rounded-full bg-lake-100 text-lake-700 flex items-center justify-center mt-1 flex-shrink-0">
+                <i data-lucide="check" class="w-4 h-4"></i>
+              </div>
+              <p class="text-slate-700 text-sm"><strong>Thermale Bronnen & Wellness:</strong> Ontspan in natuurlijk mineraalrijk thermaal water met uitzicht op het kasteel.</p>
             </div>
-            <div class="flex items-center gap-3 text-xs sm:text-sm text-slate-700">
-              <i data-lucide="check-circle-2" class="w-4 h-4 text-lake-700 flex-shrink-0"></i>
-              <span>Zwembad & hoteltuin</span>
-            </div>
-            <div class="flex items-center gap-3 text-xs sm:text-sm text-slate-700">
-              <i data-lucide="check-circle-2" class="w-4 h-4 text-lake-700 flex-shrink-0"></i>
-              <span>Terras met meerzicht</span>
+            <div class="flex items-start space-x-3">
+              <div class="w-6 h-6 rounded-full bg-lake-100 text-lake-700 flex items-center justify-center mt-1 flex-shrink-0">
+                <i data-lucide="check" class="w-4 h-4"></i>
+              </div>
+              <p class="text-slate-700 text-sm"><strong>Parkeren & Fietsen:</strong> Veilige privéparkeergelegenheid voor de wagen en fietsenstalling aanwezig.</p>
             </div>
           </div>
 
-          <div class="pt-4 flex flex-wrap gap-4">
-            <a 
-              href="https://maps.google.com/?cid=12597587032948582309" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-alpine-navy hover:bg-slate-800 text-white text-xs font-semibold uppercase tracking-wider transition-all"
-            >
-              <i data-lucide="map" class="w-4 h-4 text-alpine-gold"></i>
-              <span>Open in Google Maps</span>
+          <div class="flex items-center space-x-4">
+            <a href="https://maps.google.com/?q=Grand+Hotel+Toplice+Bled" target="_blank" class="inline-flex items-center space-x-2 px-6 py-3 rounded-full bg-alpine-navy text-white text-sm font-semibold hover:bg-lake-800 transition-colors">
+              <i data-lucide="map-pin" class="w-4 h-4"></i>
+              <span>Locatie op Google Maps</span>
             </a>
-            <button 
-              onclick="openVideoModal('lkEvOi2VRGk', 'Hotel Lido Ledro & Omgeving')"
-              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-alpine-navy/30 hover:border-alpine-navy bg-white text-alpine-navy text-xs font-semibold uppercase tracking-wider transition-all"
-            >
-              <i data-lucide="play" class="w-4 h-4 text-alpine-terracotta"></i>
-              <span>Bekijk Hotelvideo</span>
-            </button>
           </div>
         </div>
 
-        <!-- Visual Media Cards -->
-        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div class="relative group rounded-2xl overflow-hidden shadow-lg aspect-4/3 cursor-pointer" onclick="openVideoModal('lkEvOi2VRGk', 'Hotel Lido Ledro & Ligging')">
-            <img 
-              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop" 
-              alt="Grasstrand en steigers bij het meer" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-            <div class="absolute bottom-4 left-4 right-4 text-white">
-              <span class="text-[10px] uppercase tracking-wider text-alpine-gold font-bold">Het Strand</span>
-              <h4 class="font-serif-luxury text-lg font-bold">Grasstrand & Vlonders</h4>
-            </div>
-            <div class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/30 backdrop-blur-md flex items-center justify-center text-white group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-5 h-5 fill-white"></i>
-            </div>
+        <!-- Right: Image Collage -->
+        <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+          <div class="space-y-4">
+            <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=800&auto=format&fit=crop" alt="Hotel aan meer" class="rounded-3xl shadow-md w-full h-64 object-cover" />
+            <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?q=80&w=800&auto=format&fit=crop" alt="Uitzicht op meer en kasteel" class="rounded-3xl shadow-md w-full h-44 object-cover" />
           </div>
-
-          <div class="relative group rounded-2xl overflow-hidden shadow-lg aspect-4/3">
-            <img 
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1000&auto=format&fit=crop" 
-              alt="Terras met uitzicht op het meer" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-            <div class="absolute bottom-4 left-4 right-4 text-white">
-              <span class="text-[10px] uppercase tracking-wider text-alpine-gold font-bold">Terras & Zwembad</span>
-              <h4 class="font-serif-luxury text-lg font-bold">Zonneterras aan het Water</h4>
-            </div>
+          <div class="space-y-4 pt-6">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop" alt="Zwemmen in het meer" class="rounded-3xl shadow-md w-full h-44 object-cover" />
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800&auto=format&fit=crop" alt="Sloveense Alpen natuur" class="rounded-3xl shadow-md w-full h-64 object-cover" />
           </div>
         </div>
       </div>
@@ -398,853 +275,394 @@
   </section>
 
 
-  <!-- ================= VIDEO REFERENCE GALLERY ================= -->
+  <!-- ================= REFERENTIEVIDEO'S ================= -->
   <section id="videos" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <span class="text-xs uppercase tracking-widest font-semibold text-alpine-gold">Inspiratie & Verkenning</span>
-      <h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-alpine-navy mt-2">
-        Referentievideo's van de Reis
-      </h2>
-      <div class="w-20 h-0.5 bg-alpine-gold mx-auto my-4"></div>
-      <p class="text-slate-600 text-sm sm:text-base">
-        Klik op een video om direct de sfeer, het water en de spectaculaire locaties te bekijken die je tijdens deze reis zult ervaren.
+      <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-2">Beleef de Regio Vooraf</span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold text-alpine-navy mb-4">Geïntegreerde Referentievideo's</h2>
+      <p class="text-slate-600 text-base sm:text-lg">
+        Klik op een van de videokaarten om direct in 4K mee te reizen over het meer, door de diepe kloven en over de alpentoppen.
       </p>
     </div>
 
-    <!-- Video Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      <!-- Video 1: Hotel Lido -->
-      <div class="bg-white rounded-2xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all group flex flex-col">
-        <div class="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden" onclick="openVideoModal('lkEvOi2VRGk', 'Jouw Verblijf – Hotel Lido Ledro')">
-          <img 
-            src="https://img.youtube.com/vi/lkEvOi2VRGk/hqdefault.jpg" 
-            alt="Hotel Lido Ledro video thumbnail" 
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-          />
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Video 1 -->
+      <div 
+        onclick="openVideoModal('WMtUZRjTtsM', 'Meer van Bled in 4K Ultra HD')"
+        class="group relative bg-white rounded-3xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all cursor-pointer transform hover:-translate-y-1"
+      >
+        <div class="relative aspect-video w-full overflow-hidden bg-slate-900">
+          <img src="https://img.youtube.com/vi/WMtUZRjTtsM/hqdefault.jpg" alt="Lake Bled 4K" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90" />
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+            <div class="w-14 h-14 rounded-full bg-white/90 text-lake-800 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+              <i data-lucide="play" class="w-6 h-6 fill-current ml-1"></i>
             </div>
           </div>
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/70 text-white text-[11px] font-semibold tracking-wider uppercase backdrop-blur-sm">
-            Verblijf
-          </span>
         </div>
-        <div class="p-6 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Hotel Lido Ledro</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              <strong>Wat je ziet:</strong> De ligging in Pieve di Ledro, het brede grasstrand direct voor het hotel, de houten vlonders/steigers die het water in steken, ligbedden en de terrasparasols aan het water. Exact de "Achensee-opzet" in Italië.
-            </p>
-          </div>
-          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
-            <a href="https://maps.google.com/?cid=12597587032948582309" target="_blank" class="text-alpine-gold hover:underline flex items-center gap-1">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Pieve di Ledro
-            </a>
-            <a href="https://www.youtube.com/watch?v=lkEvOi2VRGk" target="_blank" class="text-slate-400 hover:text-red-600 flex items-center gap-1">
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> YouTube
-            </a>
-          </div>
+        <div class="p-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-lake-700 block mb-1">Highlight</span>
+          <h3 class="font-serif text-xl font-bold text-alpine-navy group-hover:text-lake-700 transition-colors">Meer van Bled & Eiland</h3>
+          <p class="text-slate-600 text-xs mt-2">Prachtige 4K-luchtbeelden van het meer, de kerk op het eiland en de kasteelrots.</p>
         </div>
       </div>
 
-      <!-- Video 2: Woensdag - Suppen & Rust -->
-      <div class="bg-white rounded-2xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all group flex flex-col">
-        <div class="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden" onclick="openVideoModal('JqD23E-DT60', 'Woensdag 14 juli – Suppen, Rust & Sfeer')">
-          <img 
-            src="https://img.youtube.com/vi/JqD23E-DT60/hqdefault.jpg" 
-            alt="Suppen op Lago di Ledro" 
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-          />
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
+      <!-- Video 2 -->
+      <div 
+        onclick="openVideoModal('i0YA6lxssLc', 'Vintgar-kloof (Soteska Vintgar) in 4K')"
+        class="group relative bg-white rounded-3xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all cursor-pointer transform hover:-translate-y-1"
+      >
+        <div class="relative aspect-video w-full overflow-hidden bg-slate-900">
+          <img src="https://img.youtube.com/vi/i0YA6lxssLc/hqdefault.jpg" alt="Vintgar Gorge 4K" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90" />
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+            <div class="w-14 h-14 rounded-full bg-white/90 text-lake-800 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+              <i data-lucide="play" class="w-6 h-6 fill-current ml-1"></i>
             </div>
           </div>
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/70 text-white text-[11px] font-semibold tracking-wider uppercase backdrop-blur-sm">
-            Wo 14 Juli
-          </span>
         </div>
-        <div class="p-6 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Suppen & Watersfeer</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              <strong>Wat je ziet:</strong> De intense turquoise waterkleur van Lago di Ledro, omringende bergen en hoe rustig en rimpelloos het water blijft doordat er geen motorboten mogen varen.
-            </p>
-          </div>
-          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
-            <span class="text-lake-700 flex items-center gap-1">
-              <i data-lucide="waves" class="w-3.5 h-3.5"></i> Tweede video: <a href="https://www.youtube.com/watch?v=VpLEJZyj9EY" target="_blank" class="hover:underline">Clip #2</a>
-            </span>
-            <a href="https://www.youtube.com/watch?v=JqD23E-DT60" target="_blank" class="text-slate-400 hover:text-red-600 flex items-center gap-1">
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> YouTube
-            </a>
-          </div>
+        <div class="p-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-lake-700 block mb-1">Natuur</span>
+          <h3 class="font-serif text-xl font-bold text-alpine-navy group-hover:text-lake-700 transition-colors">De Vintgar-kloof</h3>
+          <p class="text-slate-600 text-xs mt-2">Houten vlonders boven de turquoise rivier en de 13 meter hoge Šum-waterval.</p>
         </div>
       </div>
 
-      <!-- Video 3: Donderdag - Strada del Ponale -->
-      <div class="bg-white rounded-2xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all group flex flex-col">
-        <div class="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden" onclick="openVideoModal('itbM6RLTvQQ', 'Donderdag 15 juli – Strada del Ponale')">
-          <img 
-            src="https://img.youtube.com/vi/itbM6RLTvQQ/hqdefault.jpg" 
-            alt="Strada del Ponale Mountainbiken" 
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-          />
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
+      <!-- Video 3 -->
+      <div 
+        onclick="openVideoModal('bds3lu5Lfow', 'Kabelbaan Vogel & Meer van Bohinj 4K')"
+        class="group relative bg-white rounded-3xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all cursor-pointer transform hover:-translate-y-1"
+      >
+        <div class="relative aspect-video w-full overflow-hidden bg-slate-900">
+          <img src="https://img.youtube.com/vi/bds3lu5Lfow/hqdefault.jpg" alt="Vogel Cable Car Bohinj" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90" />
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+            <div class="w-14 h-14 rounded-full bg-white/90 text-lake-800 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+              <i data-lucide="play" class="w-6 h-6 fill-current ml-1"></i>
             </div>
           </div>
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/70 text-white text-[11px] font-semibold tracking-wider uppercase backdrop-blur-sm">
-            Do 15 Juli
-          </span>
         </div>
-        <div class="p-6 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Mountainbike Strada del Ponale</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              <strong>Wat je ziet:</strong> Fietspaden rond het Ledromeer en vanaf de helft de spectaculaire, in de loodrechte rotswand uitgehouwen tunnels en balkons boven het Gardameer.
-            </p>
-          </div>
-          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
-            <a href="https://maps.google.com/?q=Str.+del+Ponale,+Riva+del+Garda+TN,+Italia" target="_blank" class="text-alpine-gold hover:underline flex items-center gap-1">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Strada del Ponale
-            </a>
-            <a href="https://www.youtube.com/watch?v=itbM6RLTvQQ" target="_blank" class="text-slate-400 hover:text-red-600 flex items-center gap-1">
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> YouTube
-            </a>
-          </div>
+        <div class="p-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-lake-700 block mb-1">Panoramaberg</span>
+          <h3 class="font-serif text-xl font-bold text-alpine-navy group-hover:text-lake-700 transition-colors">Vogel Kabelbaan (1.535m)</h3>
+          <p class="text-slate-600 text-xs mt-2">Klim naar 1.535 meter hoogte met adembenemend 360° uitzicht op het Bohinjmeer en Triglav.</p>
         </div>
       </div>
 
-      <!-- Video 4: Vrijdag - Kabelbaan Monte Baldo -->
-      <div class="bg-white rounded-2xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all group flex flex-col">
-        <div class="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden" onclick="openVideoModal('ACW3W8U88-Y', 'Vrijdag 16 juli – Funivia Malcesine-Monte Baldo')">
-          <img 
-            src="https://img.youtube.com/vi/ACW3W8U88-Y/hqdefault.jpg" 
-            alt="Kabelbaan Monte Baldo" 
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-          />
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
+      <!-- Video 4 -->
+      <div 
+        onclick="openVideoModal('FeMuZVBdcEE', 'Ljubljana Oude Binnenstad 4K Wandeling')"
+        class="group relative bg-white rounded-3xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all cursor-pointer transform hover:-translate-y-1"
+      >
+        <div class="relative aspect-video w-full overflow-hidden bg-slate-900">
+          <img src="https://img.youtube.com/vi/FeMuZVBdcEE/hqdefault.jpg" alt="Ljubljana 4K" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90" />
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+            <div class="w-14 h-14 rounded-full bg-white/90 text-lake-800 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+              <i data-lucide="play" class="w-6 h-6 fill-current ml-1"></i>
             </div>
           </div>
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/70 text-white text-[11px] font-semibold tracking-wider uppercase backdrop-blur-sm">
-            Vr 16 Juli
-          </span>
         </div>
-        <div class="p-6 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Kabelbaan Monte Baldo</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              <strong>Wat je ziet:</strong> De rit met de Funivia Malcesine-Monte Baldo. De cabine roteert 360° tijdens de klim naar bijna 1.800 meter hoogte met adembenemend uitzicht over het hele Gardameer.
-            </p>
-          </div>
-          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
-            <a href="https://maps.google.com/?cid=14406863739303376682" target="_blank" class="text-alpine-gold hover:underline flex items-center gap-1">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Malcesine
-            </a>
-            <a href="https://www.youtube.com/watch?v=ACW3W8U88-Y" target="_blank" class="text-slate-400 hover:text-red-600 flex items-center gap-1">
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> YouTube
-            </a>
-          </div>
+        <div class="p-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-lake-700 block mb-1">Cultuur & Terrassen</span>
+          <h3 class="font-serif text-xl font-bold text-alpine-navy group-hover:text-lake-700 transition-colors">Hoofdstad Ljubljana</h3>
+          <p class="text-slate-600 text-xs mt-2">Wandel langs de kades, de Drie Bruggen van Plečnik en de middeleeuwse burcht.</p>
         </div>
       </div>
-
-      <!-- Video 5: Zaterdag - Paalwoningenmuseum Molina -->
-      <div class="bg-white rounded-2xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all group flex flex-col">
-        <div class="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden" onclick="openVideoModal('Wm7iMNo5Vx4', 'Zaterdag 17 juli – Museo delle Palafitte Molina')">
-          <img 
-            src="https://img.youtube.com/vi/Wm7iMNo5Vx4/hqdefault.jpg" 
-            alt="Museo delle Palafitte Molina di Ledro" 
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-          />
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
-            </div>
-          </div>
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/70 text-white text-[11px] font-semibold tracking-wider uppercase backdrop-blur-sm">
-            Za 17 Juli
-          </span>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">UNESCO Paalwoningen Molina</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              <strong>Wat je ziet:</strong> Het openluchtmuseum Museo delle Palafitte op houten palen aan de oostkant van het meer, ideaal te combineren met de boswandeling naar de kunst van Ledro Land Art.
-            </p>
-          </div>
-          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
-            <a href="https://maps.google.com/?cid=14009103814762863778" target="_blank" class="text-alpine-gold hover:underline flex items-center gap-1">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Molina di Ledro
-            </a>
-            <a href="https://www.youtube.com/watch?v=Wm7iMNo5Vx4" target="_blank" class="text-slate-400 hover:text-red-600 flex items-center gap-1">
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> YouTube
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video 6: Maandag - Glazen lift Riva -->
-      <div class="bg-white rounded-2xl overflow-hidden border border-alpine-sand shadow-sm hover:shadow-xl transition-all group flex flex-col">
-        <div class="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden" onclick="openVideoModal('yJhpmeDDC5Q', 'Maandag 19 juli – Bastione Scenic Lift Riva')">
-          <img 
-            src="https://img.youtube.com/vi/yJhpmeDDC5Q/hqdefault.jpg" 
-            alt="Bastione Scenic Lift Riva del Garda" 
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-          />
-          <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
-          <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-14 h-14 rounded-full bg-red-600 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <i data-lucide="play" class="w-6 h-6 fill-white ml-0.5"></i>
-            </div>
-          </div>
-          <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/70 text-white text-[11px] font-semibold tracking-wider uppercase backdrop-blur-sm">
-            Ma 19 Juli
-          </span>
-        </div>
-        <div class="p-6 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-serif-luxury text-xl font-bold text-alpine-navy mb-2">Glazen Lift Riva del Garda</h3>
-            <p class="text-xs text-slate-600 leading-relaxed">
-              <strong>Wat je ziet:</strong> De futuristische Bastione scenic lift met zijn glazen cabine die schuin tegen de bergwand omhoog glijdt naar het Venetiaanse fort voor koffie met uitzicht.
-            </p>
-          </div>
-          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold">
-            <a href="https://maps.google.com/?cid=6104338517624225842" target="_blank" class="text-alpine-gold hover:underline flex items-center gap-1">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Riva del Garda
-            </a>
-            <a href="https://www.youtube.com/watch?v=yJhpmeDDC5Q" target="_blank" class="text-slate-400 hover:text-red-600 flex items-center gap-1">
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i> YouTube
-            </a>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
 
-  <!-- ================= DEFINITIEF REISSCHEMA ================= -->
+  <!-- ================= PROGRAMMA (8 DAGEN) ================= -->
   <section id="programma" class="py-20 bg-alpine-sand/30 border-t border-alpine-sand">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <span class="text-xs uppercase tracking-widest font-semibold text-alpine-gold">Chronologisch Weekoverzicht</span>
-        <h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-alpine-navy mt-2">
-          Definitief Reisschema
-        </h2>
-        <p class="text-slate-600 text-sm sm:text-base mt-2">
-          Dinsdag 13 juli t/m Dinsdag 20 juli 2027 &middot; 8 dagen vol ontdekkingen
+        <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-2">Dag per Dag Draaiboek</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-alpine-navy mb-4">Het 8-Daagse Reisschema</h2>
+        <p class="text-slate-600 text-base sm:text-lg">
+          Maandag 12 juli t/m Dinsdag 20 juli 2027. Filter per dag of bekijk het chronologische weekoverzicht.
         </p>
-        <div class="w-20 h-0.5 bg-alpine-gold mx-auto my-4"></div>
-
-        <!-- Filter Buttons (Day Tabs) -->
-        <div class="flex flex-wrap items-center justify-center gap-2 mt-6 no-print" id="day-filter-container">
-          <button onclick="filterDay('all')" class="day-filter-btn active px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-alpine-navy text-white shadow-sm" data-day="all">
-            Alle Dagen
-          </button>
-          <button onclick="filterDay('day1')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day1">
-            Di 13
-          </button>
-          <button onclick="filterDay('day2')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day2">
-            Wo 14
-          </button>
-          <button onclick="filterDay('day3')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day3">
-            Do 15
-          </button>
-          <button onclick="filterDay('day4')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day4">
-            Vr 16
-          </button>
-          <button onclick="filterDay('day5')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day5">
-            Za 17
-          </button>
-          <button onclick="filterDay('day6')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day6">
-            Zo 18
-          </button>
-          <button onclick="filterDay('day7')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day7">
-            Ma 19
-          </button>
-          <button onclick="filterDay('day8')" class="day-filter-btn px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase transition-all bg-white text-slate-700 hover:bg-alpine-sand" data-day="day8">
-            Di 20
-          </button>
-        </div>
       </div>
 
-      <!-- Timeline Container -->
-      <div class="space-y-12" id="itinerary-list">
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-12 no-print">
+        <button onclick="filterDay('all')" data-day="all" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-alpine-navy text-white shadow-sm transition-all">Alles Tonen</button>
+        <button onclick="filterDay('ma12')" data-day="ma12" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Ma 12 Jul</button>
+        <button onclick="filterDay('di13')" data-day="di13" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Di 13 Jul</button>
+        <button onclick="filterDay('wo14')" data-day="wo14" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Wo 14 Jul</button>
+        <button onclick="filterDay('do15')" data-day="do15" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Do 15 Jul</button>
+        <button onclick="filterDay('vr16')" data-day="vr16" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Vr 16 Jul</button>
+        <button onclick="filterDay('za17')" data-day="za17" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Za 17 Jul</button>
+        <button onclick="filterDay('zo18')" data-day="zo18" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Zo 18 Jul</button>
+        <button onclick="filterDay('ma19')" data-day="ma19" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Ma 19 Jul</button>
+        <button onclick="filterDay('di20')" data-day="di20" class="day-filter-btn px-4 py-2 rounded-full text-xs font-semibold tracking-wide bg-white text-slate-700 hover:bg-slate-100 transition-all">Di 20 Jul</button>
+      </div>
 
-        <!-- ================= DAG 1: DINSDAG 13 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day1">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-alpine-gold/15 text-alpine-gold text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 1 &middot; Dinsdag 13 juli 2027
+      <!-- Itinerary Cards Grid -->
+      <div id="itinerary-list" class="space-y-8">
+        
+        <!-- DAG 1: Maandag 12 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="ma12">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="sun" class="w-3.5 h-3.5"></i>
+                <span>Maandag 12 Juli 2027 • Dag 1</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Heenreis, Aankomst & Eerste Duik
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Aankomst rond Middag & De Eerste Duik in het Meer</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Na de overnachting aan de Chiemsee/Salzburg rijd je in slechts 2,5 uur over de Tauernautobahn en door de Karawankentunnel. Rond <strong>11:30 – 12:00</strong> kom je aan bij het hotel aan het Meer van Bled!
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>12:00 – Inchecken en eerste blik op het sprookjesachtige meer vanaf het balkon.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>13:30 – Lunch & de beroemde <strong>Blejska kremšnita</strong> proeven bij Kavarna Park.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>16:00 – Verfrissende duik in het 24°C warme meer vanaf de hotelsteiger.</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="plane-takeoff" class="w-4 h-4 text-lake-700"></i>
-              <span>Charleroi &rarr; Bergamo &rarr; Valle di Ledro (144 km)</span>
-            </div>
-          </div>
-
-          <!-- Timeline items -->
-          <div class="space-y-6">
-            <!-- Item 1 -->
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                07:50 – 09:20
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Heenvlucht Charleroi naar Milaan Bergamo</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Vlucht vanuit Brussels South Charleroi (CRL) naar Milan Bergamo Airport (BGY).
-                </p>
-              </div>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                09:45 – 10:30
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Bagage ophalen & Huurauto ontvangst</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Vlotte bagageafhandeling en ophalen van de huurauto bij de verhuurbalie in de terminal.
-                </p>
-              </div>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                10:30 – 12:45
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Panoramische rit naar het Ledrodal</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Ca. 144 km (ongeveer 2u15) via de A4 en de schilderachtige Valle Sabbia naar Pieve di Ledro.
-                </p>
-              </div>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-lake-50 text-lake-800 text-xs font-mono font-semibold flex-shrink-0">
-                Middag & Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Aankomst bij Hotel Lido, Lunch & Eerste Duik</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Rond 13:00 uur aankomst bij <a href="https://maps.google.com/?cid=12597587032948582309" target="_blank" class="text-lake-700 font-semibold underline">Hotel Lido</a> in <a href="https://maps.google.com/?cid=2348954636507774575" target="_blank" class="text-slate-800 hover:underline">Pieve di Ledro</a>. Geniet van een ontspannen lunch aan het water en check in. Namiddag heerlijk installeren op de ligbedden in de hoteltuin of op het gras aan de waterkant voor een verfrissende eerste duik in het kraakheldere meer.
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-amber-50/60 border border-amber-200/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-alpine-gold text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-alpine-gold">Diner Tip &middot; 4 min te voet</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">La Finestra Pizza e Cucina</h5>
-                  <p class="text-xs text-slate-600">Houtovenpizza's en ambachtelijke pasta's op een sfeervol terras dicht bij het kabbelende water.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=17301835110702077320" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-amber-300 text-xs font-semibold text-alpine-navy hover:bg-amber-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-alpine-gold"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Diner Highlight</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Restavracija Julijana</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Michelin Guide aanbeveling, direct aan de waterkant met adembenemend uitzicht op het eiland.</p>
+              <a href="https://maps.google.com/?q=Restavracija+Julijana+Bled" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 2: WOENSDAG 14 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day2">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lake-100 text-lake-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 2 &middot; Woensdag 14 juli 2027
+        <!-- DAG 2: Dinsdag 13 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="di13">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="sailboat" class="w-3.5 h-3.5"></i>
+                <span>Dinsdag 13 Juli 2027 • Dag 2</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Suppen, Kajakken & Pure Rust
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Houten Pletna naar het Eiland & Het Kasteel van Bled</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Vandaag bezoeken we de twee meest iconische bezienswaardigheden van Slovenië. 's Ochtends stappen we op een traditionele houten overdekte <em>Pletna</em>-roeiboot naar het eilandje, waar je de wensklok mag luiden!
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>10:00 – Pletna-tocht naar het eiland & beklimmen van de 99 barokke stenen trappen.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>14:30 – Bezoek aan het middeleeuwse Kasteel van Bled (Blejski Grad) op de 130m hoge klif.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>17:00 – Stand-up paddle (SUP) of zwemmen bij Zaka strand.</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="waves" class="w-4 h-4 text-lake-700"></i>
-              <span>Geen motorboten &middot; Spiegelglad water</span>
-            </div>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Ochtend
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">SUP- & Kajaktocht langs ongerepte oevers</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Korte ochtendwandeling naar de steiger van <a href="https://maps.google.com/?cid=17095240045685612723" target="_blank" class="text-lake-700 underline font-semibold">Spiaggia di Pieve di Ledro</a>. Huur stand-up paddleboards (SUPs) of kajaks en peddel over het rimpelloze turquoise water langs de groene bosranden. Doordat motorboten strikt verboden zijn, geniet je van absolute stilte en spiegelende bergtoppen.
-                </p>
-                <div class="mt-2 flex gap-3 text-xs text-lake-700 font-medium">
-                  <a href="https://www.youtube.com/watch?v=JqD23E-DT60" target="_blank" class="hover:underline flex items-center gap-1">
-                    <i data-lucide="video" class="w-3.5 h-3.5"></i> Video clip 1
-                  </a>
-                  <a href="https://www.youtube.com/watch?v=VpLEJZyj9EY" target="_blank" class="hover:underline flex items-center gap-1">
-                    <i data-lucide="video" class="w-3.5 h-3.5"></i> Video clip 2
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Zomerse siësta & zwemmen vanaf houten vlonders</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Vrij relaxen op de lommerrijke ligweide onder de bomen, zonnebaden met een goed boek en verfrissende duiken nemen vanaf de karakteristieke houten steigers.
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-alpine-olive text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-alpine-olive">Gastronomisch Diner &middot; 7 min met de auto</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">ELDA Slow Restaurant (Lenzumo, Concei-dal)</h5>
-                  <p class="text-xs text-slate-600">Verfijnde, authentieke streekgerechten bereid met lokale bergproducten in een oase van rust.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=8072313542946961036" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-emerald-300 text-xs font-semibold text-alpine-navy hover:bg-emerald-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-alpine-olive"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Diner Highlight</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Blejski Grad Restaurant</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Dineren op de binnenzaal van de kasteelrots terwijl de zon ondergaat en het meer verlicht wordt.</p>
+              <a href="https://maps.google.com/?q=Blejski+Grad+Restaurant+Bled" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 3: DONDERDAG 15 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day3">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-100 text-orange-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 3 &middot; Donderdag 15 juli 2027
+        <!-- DAG 3: Woensdag 14 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="wo14">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="footprints" class="w-3.5 h-3.5"></i>
+                <span>Woensdag 14 Juli 2027 • Dag 3</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Mountainbike over de Strada del Ponale
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">De Betoverende Vintgar-kloof & Kasteelstrand</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Slechts 4 km ten noorden van Bled ligt de spectaculaire <strong>Vintgar-kloof (Soteska Vintgar)</strong>. Een 1,6 km lange wandeling over houten vlonders en bruggen die tegen de steile rotswanden zijn gemonteerd boven het kolkende turquoise water.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>09:30 – Vintgar-kloof wandeling (vroeg starten voor de rust & het magische ochtendlicht).</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>13:00 – Verse forel lunch bij Gostilna Vintgar aan het einde van de kloof.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>15:30 – Luieren en zonnen op het fraaie kasteelstrand (Grajsko kopališče).</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="bike" class="w-4 h-4 text-orange-600"></i>
-              <span>Iconische rotsgalerijen boven Gardameer</span>
-            </div>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Ochtend
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">De Spectaculaire Ponale-route & Espresso in Riva</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Huur (e-)mountainbikes in het dal. Rijd over de autovrije <a href="https://maps.google.com/?q=Str.+del+Ponale,+Riva+del+Garda+TN,+Italia" target="_blank" class="text-orange-700 underline font-semibold">Strada del Ponale</a> met zijn in de massieve rotswand uitgehouwen tunnels en balkons hoog boven het azuurblauwe Gardameer. Pauzeer bij Ponale Alto en daal desgewenst ontspannen af naar de levendige haven van <a href="https://maps.google.com/?cid=7718003947258465443" target="_blank" class="text-slate-800 hover:underline">Riva del Garda</a> voor een Italiaanse espresso vooraleer je weer naar boven fietst.
-                </p>
-                <div class="mt-2">
-                  <a href="https://www.youtube.com/watch?v=itbM6RLTvQQ" target="_blank" class="text-xs text-orange-700 font-semibold hover:underline inline-flex items-center gap-1">
-                    <i data-lucide="video" class="w-3.5 h-3.5"></i> Bekijk de Ponale routevideo
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Middagontspanning bij het hotel</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Na de sportieve ochtend geniet je van een rustige namiddag aan het zwembad van Hotel Lido of met een verfrissend aperitief aan het water.
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-amber-50/60 border border-amber-200/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-alpine-gold text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-alpine-gold">Diner Tip &middot; 6 min te voet</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">Osteria La Torre (Pieve di Ledro)</h5>
-                  <p class="text-xs text-slate-600">Gevestigd in de oude dorpskern van Pieve di Ledro. Beroemd om huisgemaakte pasta's (zoals <em>strangolapreti</em>) en lokale bergbekroonde kazen.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=1709242091476040510" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-amber-300 text-xs font-semibold text-alpine-navy hover:bg-amber-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-alpine-gold"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Diner Highlight</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Restavracija Sova</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Geprezen gastronomisch restaurant in Zaka Bay. Beroemd om verse zeevruchten, truffelpasta en lokale wijnen.</p>
+              <a href="https://maps.google.com/?q=Restavracija+Sova+Bled" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 4: VRIJDAG 16 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day4">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 4 &middot; Vrijdag 16 juli 2027
+        <!-- DAG 4: Donderdag 15 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="do15">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="mountain" class="w-3.5 h-3.5"></i>
+                <span>Donderdag 15 Juli 2027 • Dag 4</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Gardameer &middot; Monte Baldo & Malcesine
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Het Ongerepte Meer van Bohinj, Vogel (1.535m) & Savica-waterval</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Slechts 25 minuten rijden brengt ons naar het grotere en veel wildere <strong>Meer van Bohinj</strong> in het hart van Triglav Nationaal Park. De grote gondellift brengt je in enkele minuten naar het skiresort Vogel op 1.535 meter hoogte!
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>10:00 – Vogel Kabelbaan naar 1.535m: adembenemend 360° uitzicht over het Bohinjmeer en Mt. Triglav (2.864m).</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>13:30 – Wandeling door het alpenbos naar de brullende Savica-waterval (Slap Savica).</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>16:00 – Duik in het kristalheldere gletsjerwater van het Bohinjmeer bij Ukanc.</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="mountain-snow" class="w-4 h-4 text-blue-600"></i>
-              <span>360° kabelbaan &middot; Hoogte 1.800 meter</span>
-            </div>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Ochtend & Middag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Spectaculaire Kabelbaan naar Monte Baldo</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Schilderachtige rit langs de noordoostelijke oever van het Gardameer naar het middeleeuwse <a href="https://maps.google.com/?cid=14406863739303376682" target="_blank" class="text-blue-700 underline font-semibold">Malcesine</a> (ca. 45 min). Stap aan boord van de befaamde <a href="https://maps.google.com/?cid=14406863739303376682" target="_blank" class="text-blue-700 underline font-semibold">Funivia Malcesine-Monte Baldo</a>. De cabine draait langzaam 360 graden rond tijdens de stijging naar bijna 1.800 meter. Boven wacht een onvergetelijke bergwandeling met oneindig panorama over de hele lengte van het Gardameer.
-                </p>
-                <div class="mt-2">
-                  <a href="https://www.youtube.com/watch?v=ACW3W8U88-Y" target="_blank" class="text-xs text-blue-700 font-semibold hover:underline inline-flex items-center gap-1">
-                    <i data-lucide="video" class="w-3.5 h-3.5"></i> Bekijk de 360° kabelbaanvideo
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Dwalen door de straatjes van Malcesine</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Terug beneden verken je de geplaveide steegjes rondom het Scaligero-kasteel, de haven en charmante boetieks en ijssalons.
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-slate-800 text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Diner Tip (op de terugweg)</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">Osteria La Contrada (Riva del Garda)</h5>
-                  <p class="text-xs text-slate-600">Verborgen in een smal middeleeuws straatje in het oude centrum van Riva; intieme setting met heerlijke Trentino-gerechten.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=9962281112907856139" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-slate-300 text-xs font-semibold text-alpine-navy hover:bg-slate-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-700"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Diner Highlight</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Gostilna Danica</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Traditioneel familie-gasthof in Bohinjska Bistrica. Beroemd om Mohant-kaas, hertengoulash en ambachtelijke streekgerechten.</p>
+              <a href="https://maps.google.com/?q=Gostilna+Danica+Bohinj" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 5: ZATERDAG 17 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day5">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 5 &middot; Zaterdag 17 juli 2027
+        <!-- DAG 5: Vrijdag 16 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="vr16">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="landmark" class="w-3.5 h-3.5"></i>
+                <span>Vrijdag 16 Juli 2027 • Dag 5</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                UNESCO-Palafitte & Ledro Land Art
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Romantische Daguitstap naar Hoofdstad Ljubljana</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Over de rustige snelweg A2 sta je in <strong>slechts 50 minuten in het hart van Ljubljana</strong>. Een van de charmantste en meest leefbare steden van Europa: volledig autovrij centrum, barokke gevels en levendige kades.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>10:30 – Flaneren langs de Ljubljanica-rivier, de Drie Bruggen (Tromostovje) en de Drakenbrug.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>12:30 – Kabeltrein naar het Kasteel van Ljubljana (Ljubljanski grad) met uitzicht over de rode daken.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>15:00 – Gezellige terrasjes, boetieks en een ijsje op het levendige Prešerenplein.</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="trees" class="w-4 h-4 text-emerald-700"></i>
-              <span>Cultuur & Boswandeling</span>
-            </div>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Ochtend
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Prehistorisch Paalwoningenmuseum & Kunst in het Naaldbos</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Bezoek het fascinerende UNESCO-werelderfgoed <a href="https://maps.google.com/?cid=14009103814762863778" target="_blank" class="text-emerald-700 underline font-semibold">Museo delle Palafitte</a> in <a href="https://maps.google.com/?cid=1981988566614398967" target="_blank" class="text-slate-800 hover:underline">Molina di Ledro</a> direct aan het water. Aansluitend een prachtige boswandeling door de geurige naaldbossen van Pur langs de intrigerende natuursculpturen van <a href="https://maps.google.com/?cid=15434314925166730861" target="_blank" class="text-emerald-700 underline font-semibold">Ledro Land Art</a>.
-                </p>
-                <div class="mt-2">
-                  <a href="https://www.youtube.com/watch?v=Wm7iMNo5Vx4" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline inline-flex items-center gap-1">
-                    <i data-lucide="video" class="w-3.5 h-3.5"></i> Bekijk de Palafitte video
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Ontspannen op het grasstrand van Pur</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Rustig nagenieten op het serene strand van Pur of relaxen op het privé-terras van Hotel Lido.
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-amber-50/70 border border-amber-200/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-amber-700 text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-amber-800">Authentieke Berggastronomie &middot; 12 min met de auto</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">Chalet Rifugio al Faggio (Val Concei)</h5>
-                  <p class="text-xs text-slate-600">Dé culinaire must-have van Ledro: de traditionele <strong>Polenta di patate alla Ledrense</strong> met mals wildstoofvlees en verse cantharellen in een sfeervol bergchalet.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=7168884060789368204" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-amber-300 text-xs font-semibold text-alpine-navy hover:bg-amber-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-700"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Diner Highlight</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Gostilna As / Strelec</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Dineren onder de kastanjebomen in het centrum van Ljubljana of op de kasteeltoren bij sterrenrestaurant Strelec.</p>
+              <a href="https://maps.google.com/?q=Gostilna+As+Ljubljana" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 6: ZONDAG 18 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day6">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 6 &middot; Zondag 18 juli 2027
+        <!-- DAG 6: Zaterdag 17 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="za17">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="compass" class="w-3.5 h-3.5"></i>
+                <span>Zaterdag 17 Juli 2027 • Dag 6</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Daguitstap Iseomeer &middot; Monte Isola
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">De Smaragdgroene Soča-vallei of Middeleeuws Radovljica</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Keuze uit twee topbelevenissen: een spectaculaire bergrit over de <strong>Vršič-bergpas (1.611m met 50 haarspeldbochten)</strong> naar de intens turquoise Soča-rivier, of een ontspannen culturele dag in het chocoladestadje <strong>Radovljica</strong>.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>10:00 – Panoramische rit via Kranjska Gora en het kristalheldere Jasna-meer.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>13:00 – Wandelen over de hangbruggen van de smaragdgroene Soča-rivier (de 'smaragd van Slovenië').</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>17:00 – Terugrit en wandeling door de 14e-eeuwse pleintjes van Radovljica.</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="ship" class="w-4 h-4 text-teal-700"></i>
-              <span>Autovrij eiland &middot; Olijfbomen & Promenade</span>
-            </div>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Hele Dag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Naar het zuidelijke Iseomeer & Veerboot naar Monte Isola</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Na een vroeg ontbijt vertrek via de rustige bergdalen naar het zuidelijke <a href="https://maps.google.com/?cid=10560996664940868971" target="_blank" class="text-teal-700 underline font-semibold">Iseomeer</a> (ca. 1u40 rijden). Parkeer in <a href="https://maps.google.com/?cid=10560996664940868971" target="_blank" class="text-slate-800 hover:underline">Sulzano</a> en neem de 5-minutenveerboot naar het autovrije pareltje <a href="https://maps.google.com/?cid=13950156965421446238" target="_blank" class="text-teal-700 underline font-semibold">Monte Isola</a>. Verken het eiland wandelend of per huurfiets tussen eeuwenoude olijfbomen en pittoreske vissershavens.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Flaneren in Iseo-stad & Aperitief aan de Kade</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Rijd 's namiddags naar het centrum van <a href="https://maps.google.com/?cid=9344475993889754040" target="_blank" class="text-teal-700 underline font-semibold">Iseo-stad</a>. Flaneer over het gezellige Piazza Garibaldi en de prachtige wandelpromenade langs het water met boetieks en cafés.
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-teal-50/70 border border-teal-200/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-teal-700 text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-teal-800">Diner Tip &middot; Aan de Kade van het Iseomeer</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">Osteria del Crotto (Iseo)</h5>
-                  <p class="text-xs text-slate-600">Dineren aan het water met uitzicht op het glinsterende Iseomeer vooraleer je ontspannen terugrijdt naar het Ledrodal.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=9344475993889754040" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-teal-300 text-xs font-semibold text-alpine-navy hover:bg-teal-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-teal-700"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Culinaire Topper</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Hiša Linhart</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Michelinster & groene Michelinster in Radovljica. Topchef Uroš Štefelin tovert met lokale alpeningrediënten.</p>
+              <a href="https://maps.google.com/?q=Hisa+Linhart+Radovljica" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 7: MAANDAG 19 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day7">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-100 text-cyan-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 7 &middot; Maandag 19 juli 2027
+        <!-- DAG 7: Zondag 18 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="zo18">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="bike" class="w-3.5 h-3.5"></i>
+                <span>Zondag 18 Juli 2027 • Dag 7</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Glazen Lift Riva & Turquoise Lago di Tenno
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Fietsen door Traditionele Alpendorpen & Thermale Wellness</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Haal de 2 meegebrachte fietsen van het rek voor een heerlijke, vlakke tocht rondom het meer (6 km) en door de authentieke alpendorpen Zasip en Ribno met hun traditionele hooiruiven (*kozolci*).
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>10:00 – Rustige fietstocht langs het meer en de groene heuvels rond Bled.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>14:00 – Namiddag wellness in het hotel: sauna's en baden in natuurlijk thermaal water.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>18:30 – Zonsondergangsaperitief op het terras met uitzicht op het eiland.</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="eye" class="w-4 h-4 text-cyan-700"></i>
-              <span>Bastione Lift &middot; Canale di Tenno</span>
-            </div>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Ochtend
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Glazen Panoramalift Riva & Boetieks</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Korte rit (15 min) naar <a href="https://maps.google.com/?cid=7718003947258465443" target="_blank" class="text-cyan-800 underline font-semibold">Riva del Garda</a>. Stap in de hypermoderne glazen <a href="https://maps.google.com/?cid=6104338517624225842" target="_blank" class="text-cyan-800 underline font-semibold">Bastione scenic lift</a> die diagonaal tegen de bergwand omhoog glijdt naar het Venetiaanse fort. Koffie drinken met een grandioos panorama over de baai van Riva en aansluitend winkelen door de gezellige boetiekstraten.
-                </p>
-                <div class="mt-2">
-                  <a href="https://www.youtube.com/watch?v=yJhpmeDDC5Q" target="_blank" class="text-xs text-cyan-800 font-semibold hover:underline inline-flex items-center gap-1">
-                    <i data-lucide="video" class="w-3.5 h-3.5"></i> Bekijk de glazen lift video
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                Namiddag
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Intens turquoise Lago di Tenno & Canale</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Rijd 15 minuten bergopwaarts naar het intens turquoise <a href="https://maps.google.com/?cid=16915812748498106042" target="_blank" class="text-cyan-800 underline font-semibold">Lago di Tenno</a>. Maak een wandeling rondom het meer en ontdek het middeleeuwse stenen kunstenaarsdorpje <em>Canale di Tenno</em> (geklasseerd als één van de mooiste dorpen van Italië).
-                </p>
-              </div>
-            </div>
-
-            <!-- Diner Box -->
-            <div class="mt-4 p-5 rounded-2xl bg-amber-50/70 border border-amber-200/70 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div class="flex items-start gap-3">
-                <div class="w-9 h-9 rounded-xl bg-alpine-terracotta text-white flex items-center justify-center flex-shrink-0">
-                  <i data-lucide="utensils" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <div class="text-[11px] font-bold uppercase tracking-wider text-alpine-terracotta">Culinaire Afsluiter &middot; 25 min met de auto</div>
-                  <h5 class="font-serif-luxury font-bold text-lg text-slate-900">Agritur Calvola (Tenno)</h5>
-                  <p class="text-xs text-slate-600">Hooggelegen met uitzicht over het dal; dé plek om de beroemde ambachtelijke <strong>Carne Salada con fasoi</strong> en huisgemaakte wijn te proeven.</p>
-                </div>
-              </div>
-              <a href="https://maps.google.com/?cid=13281966113843848311" target="_blank" class="px-4 py-2 rounded-xl bg-white border border-amber-300 text-xs font-semibold text-alpine-navy hover:bg-amber-100 transition-colors flex items-center gap-1.5 self-start sm:self-auto">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-alpine-terracotta"></i>
-                <span>Kaart</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Diner Highlight</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Restavracija 1906</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Gevestigd in het historische Hotel Triglav Bled. Prachtig verhoogd panoramisch uitzicht over het eiland.</p>
+              <a href="https://maps.google.com/?q=Restavracija+1906+Hotel+Triglav+Bled" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
         </div>
 
-
-        <!-- ================= DAG 8: DINSDAG 20 JULI ================= -->
-        <div class="day-card print-break-inside-avoid bg-white rounded-3xl p-6 sm:p-10 border border-alpine-sand shadow-sm transition-all" data-day="day8">
-          <div class="flex flex-col md:flex-row md:items-center justify-between pb-6 mb-6 border-b border-slate-100 gap-4">
-            <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider mb-2">
-                Dag 8 &middot; Dinsdag 20 juli 2027
+        <!-- DAG 8: Maandag 19 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="ma19">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-lake-50 text-lake-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="heart" class="w-3.5 h-3.5"></i>
+                <span>Maandag 19 Juli 2027 • Dag 8</span>
               </div>
-              <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-alpine-navy">
-                Afscheid van Ledro & Terugreis
-              </h3>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Zonsopgang bij Ojstrica & Feestelijk Afscheidsdiner</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                De ultieme ansichtkaart-ochtend: voor de liefhebbers een vroege korte klim (20 min) naar het uitzichtpunt <strong>Ojstrica</strong> voor de meest gefotografeerde zonsopgang van Europa. Daarna heerlijk ontspannen en nagenieten aan het water.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>07:00 – Optionele zonsopgangwandeling naar Ojstrica (fenomenaal uitzicht over het ontwakende meer).</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>11:00 – Bootje huren of zwemmen bij het roeistadion van Zaka.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>16:00 – Souvenirs shoppen in het dorp (Sloveense honing, pompoenpitolie en alpenlikeuren).</span></li>
+              </ul>
             </div>
-            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 bg-slate-50 px-4 py-2 rounded-xl self-start md:self-auto">
-              <i data-lucide="plane-landing" class="w-4 h-4 text-slate-700"></i>
-              <span>Bergamo &rarr; Charleroi</span>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Afscheidsdiner</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Penzion Berc</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Intiem toprestaurant in een rustieke villa met weelderige tuin. Geprezen om warme gastvrijheid en sublieme streekgerechten.</p>
+              <a href="https://maps.google.com/?q=Penzion+Berc+Bled" target="_blank" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Bekijk op Google Maps</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
             </div>
           </div>
+        </div>
 
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                08:30 – 10:00
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Rustig ontbijt & Uitchecken</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Geniet van een laatste rustig ontbijt op het terras van Hotel Lido met zicht over het gladde water. Uitchecken rond 10:00 uur.
-                </p>
+        <!-- DAG 9: Dinsdag 20 Juli -->
+        <div class="day-card bg-white rounded-3xl p-6 sm:p-8 border border-alpine-sand shadow-sm" data-day="di20">
+          <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-6">
+            <div class="lg:max-w-2xl">
+              <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-100 text-slate-800 text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="car" class="w-3.5 h-3.5"></i>
+                <span>Dinsdag 20 Juli 2027 • Dag 9</span>
               </div>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-alpine-navy mb-3">Afscheid van Slovenië & Ontspannen Terugreis</h3>
+              <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+                Na een uitgebreid ontbijt aan het meer checken we rustig uit om 10:00. We rijden door de Karawankentunnel noordwaarts over de Tauernautobahn richting Zuid-Duitsland voor de tussenstop in Neurenberg of Würzburg.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-700 mb-4">
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>10:00 – Vertrek vanuit Bled.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>17:00 – Aankomst tussenstophotel in Neurenberg of Rothenburg ob der Tauber.</span></li>
+                <li class="flex items-center space-x-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-lake-600"></i><span>Woensdag 21 juli 14:30 – Veilig thuis in Ingelmunster.</span></li>
+              </ul>
             </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                10:15 – 12:45
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Rit naar Luchthaven Milaan Bergamo</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Vertrek met de huurauto via de SS240 en de autosnelweg A4 richting Bergamo (ca. 2u15 à 2u30 rijden).
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 text-xs font-mono font-semibold flex-shrink-0">
-                13:00 – 16:05
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Auto inleveren & Veiligheidscontrole</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Auto aftanken en inleveren bij het verhuurstation op <a href="https://maps.google.com/?cid=105772996865753218" target="_blank" class="text-slate-800 underline font-semibold">Luchthaven Bergamo (BGY)</a>. Inchecken en tijd voor een laatste Italiaanse lunch op de luchthaven.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start gap-4">
-              <span class="px-3 py-1.5 rounded-lg bg-alpine-navy text-white text-xs font-mono font-semibold flex-shrink-0">
-                16:05 – 17:40
-              </span>
-              <div>
-                <h4 class="font-semibold text-slate-900 text-sm sm:text-base">Terugvlucht Bergamo naar Charleroi</h4>
-                <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-                  Aankomst om 17:40 uur in Brussels South Charleroi Airport na een onvergetelijke week in Noord-Italië.
-                </p>
-              </div>
+            <div class="bg-alpine-cream p-5 rounded-2xl border border-alpine-sand lg:w-80 flex-shrink-0">
+              <span class="text-xs font-bold text-lake-800 uppercase tracking-wider block mb-1">Route & Tol</span>
+              <h4 class="font-serif text-xl font-bold text-alpine-navy">Vlotte Autosnelweg</h4>
+              <p class="text-xs text-slate-600 mt-1 mb-3">Tauerntunnel, Salzburg en de Duitse A9/A3 brengen je zonder bergpassen comfortabel naar huis.</p>
+              <a href="ROUTE_OPTIES.md" class="inline-flex items-center space-x-1 text-xs font-semibold text-lake-700 hover:text-lake-900">
+                <span>Lees het volledige vervoersdossier</span>
+                <i data-lucide="arrow-right" class="w-3 h-3"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -1254,259 +672,153 @@
   </section>
 
 
-  <!-- ================= CULINAIRE GIDS ================= -->
+  <!-- ================= CULINAIR ================= -->
   <section id="culinair" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <div class="text-center max-w-3xl mx-auto mb-16">
-      <span class="text-xs uppercase tracking-widest font-semibold text-alpine-gold">Gastronomisch Overzicht</span>
-      <h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-alpine-navy mt-2">
-        Dineren in Trentino
-      </h2>
-      <div class="w-20 h-0.5 bg-alpine-gold mx-auto my-4"></div>
-      <p class="text-slate-600 text-sm sm:text-base">
-        Elke avond brengt een andere culinaire traditie: van houtovenpizza's aan het water tot verfijnde Slow Food en bergpolenta in het Concei-dal.
+      <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-2">Smaakvol Slovenië</span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold text-alpine-navy mb-4">Gastronomische Hoogtepunten</h2>
+      <p class="text-slate-600 text-base sm:text-lg">
+        De Sloveense keuken combineert alpentradities met mediterrane invloeden: kraakverse gletsjerforel, gerookte hammen, ambachtelijke kazen en de onweerstaanbare roomtaart.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      <!-- Restaurant 1 -->
-      <div class="bg-white rounded-2xl p-6 border border-alpine-sand shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-            <span class="font-semibold text-alpine-gold uppercase tracking-wider">Di 13 Juli &middot; 4 min lopen</span>
-            <span class="bg-amber-50 text-amber-800 px-2.5 py-0.5 rounded-full font-medium">Pizza & Pasta</span>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-1">La Finestra</h3>
-          <p class="text-xs text-slate-500 mb-3">Pieve di Ledro (aan het water)</p>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            Houtovenpizza's met knapperige korst en verse pasta's geserveerd op een terras vlak bij het meer. Ideaal voor een ontspannen eerste avond zonder auto.
-          </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Specialiteit 1 -->
+      <div class="bg-white rounded-3xl p-8 border border-alpine-sand shadow-sm">
+        <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mb-6">
+          <i data-lucide="cake" class="w-6 h-6"></i>
         </div>
-        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-xs font-semibold text-slate-700">Specialiteit: Houtovenpizza</span>
-          <a href="https://maps.google.com/?cid=17301835110702077320" target="_blank" class="text-xs text-alpine-gold hover:underline flex items-center gap-1 font-semibold">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kaart
-          </a>
-        </div>
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-2">Originele Blejska Kremšnita</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          Sinds 1953 bereid volgens geheim recept bij <strong>Kavarna Park</strong>: een knapperige bladerdeegkorst, luchtige vanillevla en verse slagroom, bestrooid met poedersuiker. Onmisbaar bij een espresso aan het meer!
+        </p>
+        <span class="text-xs font-semibold text-amber-800 bg-amber-100 px-3 py-1 rounded-full">Kavarna Park Bled</span>
       </div>
 
-      <!-- Restaurant 2 -->
-      <div class="bg-white rounded-2xl p-6 border border-alpine-sand shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-            <span class="font-semibold text-emerald-700 uppercase tracking-wider">Wo 14 Juli &middot; 7 min rijden</span>
-            <span class="bg-emerald-50 text-emerald-800 px-2.5 py-0.5 rounded-full font-medium">Slow Food</span>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-1">ELDA Slow Restaurant</h3>
-          <p class="text-xs text-slate-500 mb-3">Lenzumo (Concei-dal)</p>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            Verfijnd, lokaal en puur. Bereid volgens Slow Food principes met seizoensgebonden ingrediënten uit de omliggende bergvalleien.
-          </p>
+      <!-- Specialiteit 2 -->
+      <div class="bg-white rounded-3xl p-8 border border-alpine-sand shadow-sm">
+        <div class="w-12 h-12 rounded-2xl bg-lake-50 text-lake-700 flex items-center justify-center mb-6">
+          <i data-lucide="fish" class="w-6 h-6"></i>
         </div>
-        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-xs font-semibold text-slate-700">Specialiteit: Bergproducten</span>
-          <a href="https://maps.google.com/?cid=8072313542946961036" target="_blank" class="text-xs text-emerald-700 hover:underline flex items-center gap-1 font-semibold">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kaart
-          </a>
-        </div>
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-2">Soča- & Radovna-forel</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          De snelstromende, ijskoude rivieren van het Triglav Park herbergen de beroemde marmerforel (*soška postrv*). Boterzacht gegrild met knoflook, peterselie en amandelschaafsel bij <strong>Restavracija Sova</strong>.
+        </p>
+        <span class="text-xs font-semibold text-lake-800 bg-lake-100 px-3 py-1 rounded-full">Restavracija Sova Zaka</span>
       </div>
 
-      <!-- Restaurant 3 -->
-      <div class="bg-white rounded-2xl p-6 border border-alpine-sand shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-            <span class="font-semibold text-alpine-gold uppercase tracking-wider">Do 15 Juli &middot; 6 min lopen</span>
-            <span class="bg-amber-50 text-amber-800 px-2.5 py-0.5 rounded-full font-medium">Trattoria</span>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-1">Osteria La Torre</h3>
-          <p class="text-xs text-slate-500 mb-3">Pieve di Ledro (oude dorpskern)</p>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            Klassieke gastvrijheid in de historische dorpskern. Beroemd om verse <em>strangolapreti</em> (spinazieknoedels met boter en salie) en bergkazen.
-          </p>
+      <!-- Specialiteit 3 -->
+      <div class="bg-white rounded-3xl p-8 border border-alpine-sand shadow-sm">
+        <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-6">
+          <i data-lucide="award" class="w-6 h-6"></i>
         </div>
-        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-xs font-semibold text-slate-700">Specialiteit: Strangolapreti</span>
-          <a href="https://maps.google.com/?cid=1709242091476040510" target="_blank" class="text-xs text-alpine-gold hover:underline flex items-center gap-1 font-semibold">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kaart
-          </a>
-        </div>
+        <h3 class="font-serif text-2xl font-bold text-alpine-navy mb-2">Michelinster bij Hiša Linhart</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+          In het nabijgelegen middeleeuwse Radovljica kookt chef Uroš Štefelin op wereldniveau met vergeten streekproducten, wilde bergkruiden en bio-vlees van lokale boeren.
+        </p>
+        <span class="text-xs font-semibold text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full">Radovljica (10 min)</span>
       </div>
-
-      <!-- Restaurant 4 -->
-      <div class="bg-white rounded-2xl p-6 border border-alpine-sand shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-            <span class="font-semibold text-blue-700 uppercase tracking-wider">Vr 16 Juli &middot; Riva centrum</span>
-            <span class="bg-blue-50 text-blue-800 px-2.5 py-0.5 rounded-full font-medium">Historisch</span>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-1">Osteria La Contrada</h3>
-          <p class="text-xs text-slate-500 mb-3">Riva del Garda (middeleeuws straatje)</p>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            Sfeervol restaurant in een historisch steegje. Uitstekende wijnkaart en verse bereidingen op de terugweg na Monte Baldo.
-          </p>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-xs font-semibold text-slate-700">Specialiteit: Trentino Wijn & Keuken</span>
-          <a href="https://maps.google.com/?cid=9962281112907856139" target="_blank" class="text-xs text-blue-700 hover:underline flex items-center gap-1 font-semibold">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kaart
-          </a>
-        </div>
-      </div>
-
-      <!-- Restaurant 5 -->
-      <div class="bg-white rounded-2xl p-6 border border-alpine-sand shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-            <span class="font-semibold text-amber-700 uppercase tracking-wider">Za 17 Juli &middot; 12 min rijden</span>
-            <span class="bg-amber-50 text-amber-900 px-2.5 py-0.5 rounded-full font-medium">Traditioneel Chalet</span>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-1">Chalet Rifugio al Faggio</h3>
-          <p class="text-xs text-slate-500 mb-3">Val Concei</p>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            De ultieme Ledro-specialiteit: <em>Polenta di patate alla Ledrense</em> met gestoofd wild en bospaddenstoelen in een behaaglijk houten toevluchtsoord.
-          </p>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-xs font-semibold text-slate-700">Specialiteit: Polenta di Patate</span>
-          <a href="https://maps.google.com/?cid=7168884060789368204" target="_blank" class="text-xs text-amber-700 hover:underline flex items-center gap-1 font-semibold">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kaart
-          </a>
-        </div>
-      </div>
-
-      <!-- Restaurant 6 -->
-      <div class="bg-white rounded-2xl p-6 border border-alpine-sand shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs text-slate-500 mb-3">
-            <span class="font-semibold text-alpine-terracotta uppercase tracking-wider">Ma 19 Juli &middot; 25 min rijden</span>
-            <span class="bg-orange-50 text-orange-900 px-2.5 py-0.5 rounded-full font-medium">Agriturismo</span>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-1">Agritur Calvola</h3>
-          <p class="text-xs text-slate-500 mb-3">Tenno (met panoramisch uitzicht)</p>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            Dé ambachtelijke referentie voor <em>Carne Salada con fasoi</em> (dungesneden gekruid rundvlees met bonen) en huisgemaakte wijn boven het dal van Tenno.
-          </p>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-xs font-semibold text-slate-700">Specialiteit: Carne Salada</span>
-          <a href="https://maps.google.com/?cid=13281966113843848311" target="_blank" class="text-xs text-alpine-terracotta hover:underline flex items-center gap-1 font-semibold">
-            <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> Kaart
-          </a>
-        </div>
-      </div>
-
     </div>
   </section>
 
 
-  <!-- ================= PRAKTISCHE REISDETAILS & CHECKLIST ================= -->
+  <!-- ================= PRAKTISCH & CHECKLIST ================= -->
   <section id="praktisch" class="py-20 bg-alpine-sand/40 border-t border-alpine-sand">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-widest font-semibold text-alpine-gold">Voorbereiding & Tips</span>
-        <h2 class="font-serif-luxury text-3xl sm:text-5xl font-bold text-alpine-navy mt-2">
-          Praktische Informatie & Paklijst
-        </h2>
-        <div class="w-20 h-0.5 bg-alpine-gold mx-auto my-4"></div>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
         
-        <!-- Vlucht & Auto -->
-        <div class="bg-white rounded-2xl p-8 border border-alpine-sand shadow-sm">
-          <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center mb-6">
-            <i data-lucide="plane" class="w-6 h-6"></i>
+        <!-- Linkerkolom: Praktische Gegevens -->
+        <div class="lg:col-span-6 space-y-6">
+          <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-1">Praktische Informatie</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-alpine-navy">Handig om te Weten</h2>
+          
+          <div class="bg-white p-6 rounded-3xl border border-alpine-sand space-y-4">
+            <div class="flex items-start space-x-3">
+              <i data-lucide="euro" class="w-5 h-5 text-lake-700 mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-sm text-alpine-navy">Munteenheid & Betalen</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Slovenië gebruikt gewoon de Euro (€). Vrijwel overal worden bank- en kredietkaarten geaccepteerd.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <i data-lucide="ticket" class="w-5 h-5 text-lake-700 mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-sm text-alpine-navy">Vignetten & Tolwegen</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Slovenië vereist een digitaal e-vignet (€ 32 voor 1 maand), Oostenrijk een 10-dagen vignet (€ 11,50) + Karawankentunnel (€ 8,20). Alles digitaal vooraf te regelen via asfinag.at en dars.si.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <i data-lucide="shield-alert" class="w-5 h-5 text-lake-700 mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-sm text-alpine-navy">Veiligheid & Noodnummers</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Slovenië behoort tot de top 10 veiligste landen ter wereld. Algemeen Europees alarmnummer: <strong>112</strong>.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <i data-lucide="thermometer-sun" class="w-5 h-5 text-lake-700 mt-0.5"></i>
+              <div>
+                <h4 class="font-bold text-sm text-alpine-navy">Klimaat & Watertemperatuur</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Juli is heerlijk zomers (25°C – 29°C). Het meer van Bled warmt op tot ca. 24°C dankzij ondergrondse thermale bronnen!</p>
+              </div>
+            </div>
           </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-4">Vluchten & Autohuur</h3>
-          <ul class="space-y-4 text-xs sm:text-sm text-slate-600">
-            <li class="flex items-start gap-3">
-              <i data-lucide="arrow-right" class="w-4 h-4 text-alpine-gold flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Heenvlucht:</strong> Di 13 juli 2027<br />
-                07:50 CRL &rarr; 09:20 BGY (Milaan Bergamo)
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="arrow-right" class="w-4 h-4 text-alpine-gold flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Terugvlucht:</strong> Di 20 juli 2027<br />
-                16:05 BGY &rarr; 17:40 CRL (Charleroi)
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="arrow-right" class="w-4 h-4 text-alpine-gold flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Huurauto:</strong> Ophalen en inleveren terminal Bergamo. Route naar Ledro: A4 tot Brescia Est, vervolgens SS45bis en SS240 via Idro en Valle Sabbia (144 km, ca. 2u15).
-              </div>
-            </li>
-          </ul>
+
+          <div class="p-6 bg-lake-800 text-white rounded-3xl shadow-md">
+            <h4 class="font-serif text-xl font-bold mb-2">Transportdocumentatie</h4>
+            <p class="text-xs text-slate-200 mb-4 leading-relaxed">
+              De complete transportanalyse met vergelijking tussen de autorit via Chiemsee/Salzburg, de unieke autonachttrein vanuit Düsseldorf naar Villach en vluchten staat in:
+            </p>
+            <a href="ROUTE_OPTIES.md" class="inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-white text-lake-900 text-xs font-bold hover:bg-slate-100 transition-colors">
+              <i data-lucide="file-text" class="w-4 h-4"></i>
+              <span>Open ROUTE_OPTIES.md</span>
+            </a>
+          </div>
         </div>
 
-        <!-- Belangrijke Weetjes -->
-        <div class="bg-white rounded-2xl p-8 border border-alpine-sand shadow-sm">
-          <div class="w-12 h-12 rounded-xl bg-amber-50 text-alpine-gold flex items-center justify-center mb-6">
-            <i data-lucide="info" class="w-6 h-6"></i>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-4">Belangrijke Weetjes</h3>
-          <ul class="space-y-4 text-xs sm:text-sm text-slate-600">
-            <li class="flex items-start gap-3">
-              <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Geen Motorboten:</strong> Op Lago di Ledro heerst rust. Enkel zeilboten, kajaks en SUPs zijn toegestaan.
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Waterschoenen:</strong> De oevers hebben kiezels en houten vlonders; waterschoentjes zijn erg praktisch.
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Kabelbaan Monte Baldo:</strong> Tip: reserveer online tijdssloten in juli om wachtrijen bij Malcesine te vermijden.
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"></i>
-              <div>
-                <strong>Noodnummer:</strong> Algemeen Europees alarmnummer: <strong>112</strong>.
-              </div>
-            </li>
-          </ul>
-        </div>
+        <!-- Rechterkolom: Interactieve Checklist -->
+        <div class="lg:col-span-6">
+          <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-1">Meeneemlijst</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-alpine-navy mb-6">Interactieve Reischecklist</h2>
 
-        <!-- Interactieve Paklijst -->
-        <div class="bg-white rounded-2xl p-8 border border-alpine-sand shadow-sm">
-          <div class="w-12 h-12 rounded-xl bg-emerald-50 text-alpine-olive flex items-center justify-center mb-6">
-            <i data-lucide="check-square" class="w-6 h-6"></i>
-          </div>
-          <h3 class="font-serif-luxury text-2xl font-bold text-alpine-navy mb-4">Reis-Checklist</h3>
-          <div class="space-y-3 text-xs sm:text-sm text-slate-700" id="checklist">
-            <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded text-alpine-gold focus:ring-alpine-gold w-4 h-4" />
-              <span>Geldig paspoort / identiteitskaart</span>
+          <div id="checklist" class="bg-white p-6 sm:p-8 rounded-3xl border border-alpine-sand space-y-4">
+            <p class="text-xs text-slate-500 mb-2">Vink af wat klaar is. Je voortgang wordt automatisch bewaard in je browser:</p>
+            
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Identiteitskaarten (minstens 3 maanden geldig)</span>
             </label>
-            <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded text-alpine-gold focus:ring-alpine-gold w-4 h-4" />
-              <span>Rijbewijs & creditcard (op naam van hoofdbestuurder)</span>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Digitaal E-Vignet Slovenië & Oostenrijk (ASFINAG & DARS)</span>
             </label>
-            <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded text-alpine-gold focus:ring-alpine-gold w-4 h-4" />
-              <span>Waterschoentjes & zwemkleding</span>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Wandelschoenen met goed profiel (voor Vintgar-kloof & Vogel)</span>
             </label>
-            <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded text-alpine-gold focus:ring-alpine-gold w-4 h-4" />
-              <span>Fietskleding / sportieve outfit voor Strada del Ponale</span>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Zwemkleding & waterschoentjes (voor meer van Bled & Bohinj)</span>
             </label>
-            <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded text-alpine-gold focus:ring-alpine-gold w-4 h-4" />
-              <span>Goede wandelschoenen voor Monte Baldo (1.800m)</span>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">2 fietsen op het rek + fietsslot & pomp</span>
             </label>
-            <label class="flex items-center gap-3 cursor-pointer">
-              <input type="checkbox" class="rounded text-alpine-gold focus:ring-alpine-gold w-4 h-4" />
-              <span>Lichte windjack voor bergtoppen</span>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Zonnecrème, zonnebril & lichte regenjas (bergweer)</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Europese ziekteverzekeringskaart (EZVK / mutualiteit)</span>
             </label>
           </div>
         </div>
@@ -1517,39 +829,27 @@
 
 
   <!-- ================= FOOTER ================= -->
-  <footer class="bg-alpine-navy text-white py-16 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-      <div>
-        <div class="flex items-center gap-3 mb-2">
-          <div class="w-8 h-8 rounded-full bg-alpine-gold text-alpine-navy flex items-center justify-center font-bold">
-            <i data-lucide="compass" class="w-4 h-4"></i>
-          </div>
-          <span class="font-serif-luxury text-2xl font-bold tracking-tight">Lago di Ledro 2027</span>
-        </div>
-        <p class="text-xs text-slate-400">
-          Een onvergetelijke reis door Trentino, het Gardameer en het Iseomeer &middot; 13 – 20 juli 2027
-        </p>
+  <footer class="bg-alpine-navy text-slate-400 py-12 border-t border-slate-800 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center space-x-2">
+        <i data-lucide="mountain-snow" class="w-5 h-5 text-emerald-400"></i>
+        <span class="font-serif text-lg font-bold text-white">Meer van Bled & Julische Alpen 2027</span>
       </div>
-
-      <div class="flex flex-wrap items-center gap-4 text-xs">
-        <button onclick="window.print()" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white flex items-center gap-2 transition-all">
-          <i data-lucide="printer" class="w-4 h-4 text-alpine-gold"></i>
-          <span>Print / Bewaar als PDF</span>
-        </button>
-        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-5 py-2.5 rounded-full bg-alpine-gold hover:bg-amber-500 text-alpine-navy font-semibold flex items-center gap-2 transition-all">
-          <i data-lucide="arrow-up" class="w-4 h-4"></i>
-          <span>Naar Boven</span>
-        </button>
+      <div>
+        <span>Gepersonaliseerd Reisdossier • Ingelmunster &rarr; Slovenië (12 – 20 Juli 2027)</span>
+      </div>
+      <div>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="text-emerald-400 hover:text-white transition-colors">Naar Boven &uarr;</button>
       </div>
     </div>
   </footer>
 
 
-  <!-- ================= YOUTUBE VIDEO MODAL ================= -->
-  <div id="videoModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+  <!-- ================= VIDEO MODAL ================= -->
+  <div id="videoModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-3xl overflow-hidden max-w-4xl w-full shadow-2xl relative">
       <div class="p-4 sm:p-5 flex items-center justify-between border-b border-slate-800">
-        <h4 id="videoModalTitle" class="text-white font-serif-luxury text-lg sm:text-xl font-bold">Referentievideo</h4>
+        <h4 id="videoModalTitle" class="text-white font-serif text-lg sm:text-xl font-bold">Referentievideo</h4>
         <button onclick="closeVideoModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
@@ -1635,10 +935,10 @@
     // Persist checklist state in localStorage
     const checkboxes = document.querySelectorAll('#checklist input[type="checkbox"]');
     checkboxes.forEach((cb, idx) => {
-      const saved = localStorage.getItem('ledro_check_' + idx);
+      const saved = localStorage.getItem('bled_check_' + idx);
       if (saved === 'true') cb.checked = true;
       cb.addEventListener('change', () => {
-        localStorage.setItem('ledro_check_' + idx, cb.checked);
+        localStorage.setItem('bled_check_' + idx, cb.checked);
       });
     });
   </script>
