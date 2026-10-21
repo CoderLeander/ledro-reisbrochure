@@ -153,3 +153,41 @@ Omdat jullie met 4 personen reizen en **maximaal 2 fietsen achterop de auto** he
 - **Prijs juli (2 kamers):** ca. **€ 220 – € 270 totaal** (€ 110 – € 135 per kamer), ontbijt ca. € 18 p.p.
 - **Parkeren:** Eigen parkeerplaatsen (€ 5/nacht).
 - **Sfeer:** Eigen restaurant met Pfälzer wijnen en seizoensgerechten.
+
+---
+
+## 🚂🚗 Factcheck: De Autonachttrein (Autozug / Motorail)
+
+Is het mogelijk om de wagen op een nachttrein te laden en ontspannen naar Italië te sporen?
+
+### 1. Situatie in België & Frankrijk:
+- **Bestaat niet meer.** Zowel in België (NMBS), Frankrijk (SNCF Auto-Train) als Nederland zijn alle autoslaaptreinen al jaren geleden volledig opgeheven.
+- De **ÖBB Nightjet** nachttrein rijdt weliswaar vanuit Brussel-Zuid naar Oostenrijk, maar vervoert **uitsluitend passagiers (géén auto's)**.
+
+### 2. De dichtstbijzijnde optie: Urlaubs-Express (UEX) vanuit Düsseldorf
+De enige actieve aanbieder van autotreinen in onze regio is de Duitse particuliere maatschappij **Urlaubs-Express (UEX)** vanaf het autolaadstation in **Düsseldorf** (~260 km / 2u45 rijden vanaf Ingelmunster).
+
+### 3. Belangrijke knelpunten voor Lago di Ledro:
+- **Routes naar Verona en Innsbruck zijn AFGESCHAFT:**
+  - De historische autotrein naar **Verona** rijdt al geruime tijd niet meer.
+  - De autotrein naar **Innsbruck** is stopgezet wegens de langdurige sloop en herinrichting van de autolaadterminals in Innsbruck Hauptbahnhof.
+  - De **enige overgebleven zomerdestinatie** vanaf Düsseldorf richting de Alpen is **Villach (Karinthië, Zuidoost-Oostenrijk)**.
+- **Logistieke omweg:**
+  - Villach ligt helemaal in het zuidoosten van Oostenrijk (tegen de Sloveense grens).
+  - Vanaf Villach naar Lago di Ledro is het alsnog **ca. 390 km (4,5 à 5 uur zuivere rijtijd)** via Udine, Venetië en Verona!
+  - **Je rijdt in totaal:** 260 km naar Düsseldorf + 390 km vanaf Villach = **650 km zelf rijden per enkele reis** (1.300 km retour). De complete rechtstreekse autorit vanuit Ingelmunster is 1.090 km. Je bespaart dus nauwelijks kilometers en maakt een enorme omweg.
+- **Strikte restricties voor fietsendragers:**
+  - Autotransportwagens op het spoor hebben strenge hoogtebeperkingen (max. 1,55m tot 1,95m). Een fietsendrager achterop maakt de auto langer en leidt vaak tot dure toeslagen of weigering bij volle treinen. Fietsen op het dak zijn strikt verboden wegens de hoogspanningsbovenleiding.
+
+### 4. Prijzen van de Autotrein (Hoogseizoen juli, 4 personen + auto):
+- **Passagierstickets (ligrijtuig / couchette voor 4 pers.):** ca. € 350 – € 500 per enkele reis.
+- **Wagenvervoer (Autoverladung):** ca. € 200 – € 280 per enkele reis.
+- **Totaalprijs enkele reis:** ca. **€ 550 – € 780**
+- **Totaalprijs heen & terug:** ca. **€ 1.100 – € 1.550** (enkel de trein!).
+- Tel daar nog de brandstof en tol bij voor de 1.300 km die je alsnog zelf moet rijden (~€ 200), en de totale reiskost bedraagt **ca. € 1.300 – € 1.750**.
+
+### 💡 Conclusie Autonachttrein:
+De autonachttrein is voor Lago di Ledro helaas **geen realistisch of logisch alternatief**:
+1. Hij kost **meer dan het dubbele** van zelf rijden met hotelovernachtingen.
+2. Je moet alsnog **650 km zelf rijden** en 2 uur vooraf aanwezig zijn in Düsseldorf voor het inladen.
+3. Je komt aan in het uiterste oosten van Oostenrijk (Villach), ver uit de richting van Trentino.
