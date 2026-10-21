@@ -60,6 +60,13 @@ Koppel je GitHub repo in [Vercel](https://vercel.com/) voor instant zero-config 
 
 ---
 
+## 🚗 Reisroutes & Vervoersanalyse (Ingelmunster &rarr; Ledro)
+
+Een complete vergelijking van reisopties met de auto (met overnachtingen in Beieren/Tirol en Speyer), vluchten vanuit België (factcheck Zaventem, Charleroi en Brescia), kosten en fietsvervoer is te vinden in:
+👉 **[ROUTE_OPTIES.md](ROUTE_OPTIES.md)**
+
+---
+
 ## 📅 Reisoverzicht in het Kort (13 – 20 juli 2027)
 
 | Dag | Datum | Hoogtepunt | Diner |
