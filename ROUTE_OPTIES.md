@@ -80,19 +80,20 @@ Voor een reis naar het **Meer van Bled** in Slovenië liggen de transportkaarten
 
 ## 🚂🚗 Optie 2: De Autonachttrein (Urlaubs-Express Düsseldorf &rarr; Villach)
 
-Voor Slovenië is de autotrein een **zeer interessante en comfortabele belevenis**:
-- **Waarom?** Villach ligt op slechts **65 km van het Meer van Bled**.
-- **Hoe verloopt de reis?**
-  1. **Zondag 11 juli 2027:**
-     - **14:00:** Vertrek vanuit Ingelmunster &rarr; Düsseldorf laadstation (260 km, ca. 2u45 rijden).
-     - **17:00:** Aanmelden bij het autolaadterminal van Düsseldorf Hbf. De auto wordt op de autowagon gereden.
-     - **19:00:** Instappen in het ligrijtuig (privé-couchette voor jullie 4). Drankje in de bar/bistrowagon, gezelligheid en ontspannen slapen terwijl de trein door Duitsland en Oostenrijk raast.
-  2. **Maandag 12 juli 2027:**
-     - **08:30 – 09:30:** Wakker worden met uitzicht op de Oostenrijkse Alpen rond de Tauern. Ontbijt in de coupé.
-     - **09:45:** Aankomst in Villach Hbf. Auto van de trein rijden (ca. 30 min).
-     - **10:30:** Vertrek vanaf Villach. Slechts 10 km snelweg naar de Karawankentunnel, en direct na de tunnel ben je in Slovenië.
-     - **11:15:** **Aankomst bij het hotel aan het Meer van Bled!** Fris, uitgerust en zonder een meter snelwegstress.
-- **Kosten:** Reken op ca. **€ 1.250 – € 1.500 retour** voor 4 personen + wagen in een eigen 4-persoons slaapcoupé.
+Hoewel Villach geografisch ideaal ligt (slechts 65 km van het Meer van Bled), stuit de autotrein in de praktijk op een **zeer grote beperking: de extreem lage frequentie**.
+
+### ⚠️ Belangrijke Knelpunten van de Urlaubs-Express:
+1. **Rijdt slechts om de 10 tot 14 dagen:**
+   - Urlaubs-Express (UEX) is een particuliere niche-aanbieder met slechts een beperkt aantal treinstellen. De verbinding Düsseldorf &rarr; Villach rijdt **niet wekelijks en zeker niet dagelijks**, maar slechts **1 à 2 keer per maand** (om de 10 tot 14 dagen) op geselecteerde vrijdagen/zaterdagen.
+   - **Gevolg voor een 8-daagse vakantie:** Het is vrijwel onmogelijk om een reis van 8 dagen (maandag 12 t/m dinsdag 20 juli) aan te laten sluiten op een heen- én terugrit met de trein. Je zou je vakantie moeten verlengen naar 14 dagen, of één richting alsnog zelf moeten rijden.
+2. **Forse kostprijs:**
+   - Reken op ca. **€ 1.250 – € 1.500 retour** voor 4 personen in een slaapcoupé + autotransport. Dat is dubbel zo duur als de complete autorit inclusief hotels.
+3. **Afhankelijkheid van de Duitse spoorwegen:**
+   - Als nachttrein van een private maatschappij heeft UEX lage prioriteit op het overvolle Duitse spoornet, wat bij vertragingen snel kan oplopen.
+
+### Hoe het er in theorie uit zou zien (als de data toevallig aansluiten):
+- **Heenreis:** Zondag 11 juli om 14:00 vanuit Ingelmunster naar Düsseldorf (260 km). Inladen om 17:00, vertrek ca. 19:50. Slapen in de coupé.
+- **Aankomst:** Maandagochtend rond 09:30 aankomst Villach. Auto uitladen en na **45 minuten (65 km)** sta je om 11:15 aan het Meer van Bled.
 
 ---
 
