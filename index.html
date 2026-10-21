@@ -731,6 +731,41 @@
         <div class="lg:col-span-6 space-y-6">
           <span class="text-xs uppercase tracking-widest text-lake-700 font-bold block mb-1">Praktische Informatie</span>
           <h2 class="font-serif text-3xl sm:text-4xl font-bold text-alpine-navy">Handig om te Weten</h2>
+
+          <!-- Featured Box: Vlucht Zaventem + Transfer -->
+          <div class="bg-gradient-to-br from-lake-900 via-lake-800 to-alpine-navy text-white p-6 sm:p-7 rounded-3xl shadow-lg border border-lake-700 space-y-4">
+            <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold uppercase tracking-wider">
+              <i data-lucide="plane" class="w-3.5 h-3.5"></i>
+              <span>Aanbevolen Vliegformule: Zaventem &rarr; Bled</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-white">Vlucht Zaventem + Privé-Transfer (Zónder Huurauto)</h3>
+            <p class="text-xs sm:text-sm text-slate-200 leading-relaxed">
+              De meest zorgeloze manier om naar Bled te reizen: geen files, geen Charleroi-stress, geen dure huurauto (€ 350+ bespaard) en <strong>geen parkeerkosten</strong> aan het meer!
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1 text-xs">
+              <div class="bg-white/10 p-3.5 rounded-2xl border border-white/10">
+                <div class="font-bold text-emerald-300 flex items-center space-x-1.5 mb-1">
+                  <i data-lucide="plane-takeoff" class="w-4 h-4"></i>
+                  <span>1u35m Vlucht (BRU &rarr; LJU)</span>
+                </div>
+                <p class="text-slate-300">Rechtstreeks met Brussels Airlines vanaf Brussel Zaventem. Rechtstreekse trein Izegem/Kortrijk tot onder vertrekhal.</p>
+              </div>
+              <div class="bg-white/10 p-3.5 rounded-2xl border border-white/10">
+                <div class="font-bold text-emerald-300 flex items-center space-x-1.5 mb-1">
+                  <i data-lucide="car" class="w-4 h-4"></i>
+                  <span>25 min Privé-Transfer</span>
+                </div>
+                <p class="text-slate-300">Chauffeur wacht in de aankomsthal met bordje en zet je voor de hoteldeur af (€ 55 – € 65 per rit voor 4 pers.).</p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between pt-1">
+              <span class="text-xs text-slate-300">Totale reiskost voor 4 pers.: <strong>ca. € 240 – € 260 p.p.</strong></span>
+              <a href="ROUTE_OPTIES.md" class="inline-flex items-center space-x-1.5 text-xs font-bold text-emerald-300 hover:text-white transition-colors">
+                <span>Lees het vervoersdossier</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
           
           <div class="bg-white p-6 rounded-3xl border border-alpine-sand space-y-4">
             <div class="flex items-start space-x-3">
@@ -742,10 +777,10 @@
             </div>
 
             <div class="flex items-start space-x-3">
-              <i data-lucide="ticket" class="w-5 h-5 text-lake-700 mt-0.5"></i>
+              <i data-lucide="bus" class="w-5 h-5 text-lake-700 mt-0.5"></i>
               <div>
-                <h4 class="font-bold text-sm text-alpine-navy">Vignetten & Tolwegen</h4>
-                <p class="text-xs text-slate-600 mt-0.5">Slovenië vereist een digitaal e-vignet (€ 32 voor 1 maand), Oostenrijk een 10-dagen vignet (€ 11,50) + Karawankentunnel (€ 8,20). Alles digitaal vooraf te regelen via asfinag.at en dars.si.</p>
+                <h4 class="font-bold text-sm text-alpine-navy">Lokale Mobiliteit zonder Huurauto</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Pletna-boten naar het eiland, Vintgar-shuttlebus om het halfuur, uurdienst-bus naar Bohinjmeer/Vogel (€ 3,60) en rechtstreekse bus naar het 100% autovrije centrum van Ljubljana (€ 6,30).</p>
               </div>
             </div>
 
@@ -765,17 +800,6 @@
               </div>
             </div>
           </div>
-
-          <div class="p-6 bg-lake-800 text-white rounded-3xl shadow-md">
-            <h4 class="font-serif text-xl font-bold mb-2">Transportdocumentatie</h4>
-            <p class="text-xs text-slate-200 mb-4 leading-relaxed">
-              De complete transportanalyse met vergelijking tussen de autorit via Chiemsee/Salzburg, de unieke autonachttrein vanuit Düsseldorf naar Villach en vluchten staat in:
-            </p>
-            <a href="ROUTE_OPTIES.md" class="inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-white text-lake-900 text-xs font-bold hover:bg-slate-100 transition-colors">
-              <i data-lucide="file-text" class="w-4 h-4"></i>
-              <span>Open ROUTE_OPTIES.md</span>
-            </a>
-          </div>
         </div>
 
         <!-- Rechterkolom: Interactieve Checklist -->
@@ -793,7 +817,12 @@
 
             <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
               <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
-              <span class="text-sm font-medium text-slate-700">Digitaal E-Vignet Slovenië & Oostenrijk (ASFINAG & DARS)</span>
+              <span class="text-sm font-medium text-slate-700">Vliegtickets Brussels Airlines (Zaventem BRU &rarr; Ljubljana LJU)</span>
+            </label>
+
+            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
+              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
+              <span class="text-sm font-medium text-slate-700">Bevestiging Privé-Luchthaventransfer (Ljubljana Airport &rarr; Hotel in Bled)</span>
             </label>
 
             <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
@@ -804,11 +833,6 @@
             <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
               <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
               <span class="text-sm font-medium text-slate-700">Zwemkleding & waterschoentjes (voor meer van Bled & Bohinj)</span>
-            </label>
-
-            <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
-              <input type="checkbox" class="w-5 h-5 rounded text-lake-600 focus:ring-lake-500 rounded border-slate-300" />
-              <span class="text-sm font-medium text-slate-700">2 fietsen op het rek + fietsslot & pomp</span>
             </label>
 
             <label class="flex items-center space-x-3 p-3 rounded-xl hover:bg-slate-50 transition-colors cursor-pointer border border-transparent hover:border-slate-200">
