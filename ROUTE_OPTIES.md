@@ -84,6 +84,28 @@ Een prachtige, afwisselende cirkelroute door België, Luxemburg, Frankrijk, Zwit
 
 ---
 
+### ⚡ 3.3 Elektrisch Rijden met de BMW i4 (Shell Recharge & Laadinfrastructuur)
+
+- **Voertuig:** BMW i4 (100% Elektrisch)
+- **Zomerbereik:** ca. 380 km (reële snelwegactieradius tussen 10% en 80% SoC: ca. 250 &ndash; 280 km per etappe).
+- **Snellaadstrategie:**
+  - Snelladen tussen 10% en 80% duurt ca. 28 tot 30 minuten (piek tot 205 kW DC). De laadcurve vlakt boven 80% sterk af, dus stops van ~25 minuten om de 250 km zijn ideaal.
+  - Stel snelladers onderweg in via het ingebouwde BMW iDrive navigatiesysteem: de batterij wordt dan automatisch tijdig geconditioneerd (voorverwarmd/gekoeld) voor maximale laadkracht bij aankomst.
+- **Laadinfrastructuur Ter Plaatse (Lago di Ledro & Trentino):**
+  - **Hotel Lido Ledro:** Beschikt over een **eigen laadpaal (colonnina di ricarica)** op het privéterrein voor hotelgasten! 's Nachts inpluggen = 's ochtends vertrekken met 100% batterij (380 km bereik). Voor de lokale uitstapjes (Riva, Monte Baldo, Tenno, Val Concei) hoef je de hele week niet naar een publieke paal.
+  - **Valle di Ledro:** Publieke Neogy 22 kW AC laadpalen in **Bezzecca** (2 km van hotel, bij Cassa Rurale) en in **Molina di Ledro** (bij het Paalwoningenmuseum).
+  - **Riva del Garda (14 km / 18 min):** Grote Neogy snellaadhub aan de **Via Confalonieri** met **3x dubbele 200 kW HPC snelladers** en 1x 100 kW lader. In 20 minuten weer 80% vol tijdens een terrasje aan het Gardameer.
+- **Shell Recharge Dekking:**
+  - **Italië / Trentino:** Shell Recharge heeft actieve roaming met **Neogy** (Dolomiti Energia / Alperia &ndash; het dominante netwerk in Trentino), **Be Charge (Plenitude)** en **Enel X Way**.
+  - **Onderweg (België, Luxemburg, Frankrijk, Zwitserland):** Vrijwel 100% dekking langs de snelwegen bij alle grote netwerken (Ionity, Fastned, EnBW, TotalEnergies, Aral Pulse).
+  - **Aanrader:** Neem de **fysieke Shell Recharge RFID-pas/druppel** mee in de auto (werkt ook als mobiel 4G/5G bereik in bergtunnels of diepe valleien wegvalt).
+- **Laden bij de Tussenstophotels:**
+  - *Seehotel Beinwil am See (CH):* Beschikt over eigen EV-laadpaal op de hotelparking.
+  - *b-smart hotel Menziken (CH):* Beschikt over EV-laadpunten in de parkeergarage.
+  - *Colmar (FR):* Snellaadhubs direct langs de A35 en 22 kW laadpunten in Colmar-centrum (o.a. Parking Rapp).
+
+---
+
 ## 🇸🇮 4. Dossier Meer van Bled (Slovenië)
 
 - **Vliegroute:** Brussels Airlines (SN) rechtstreeks van **Brussel Zaventem (BRU) naar Ljubljana (LJU)**. Vluchttijd 1u35m.
