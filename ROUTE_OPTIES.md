@@ -74,6 +74,72 @@ Een prachtige, afwisselende cirkelroute door België, Luxemburg, Frankrijk, Zwit
   - Franse Elzassnelweg (A35): **tolvrij**!
   - Totale tolkost: ca. **€ 70** (exact gelijk aan de Oostenrijk/Brenner-route, maar aanzienlijk korter in kilometers: 995 km heen i.p.v. 1.090 km).
 
+#### ⏱️ Realistisch Laad- & Tijdschema BMW i4 (Heenreis)
+*Uitgangspunten: Zomerverbruik bij 110-120 km/u ca. 19 kWh/100 km. Snelladen steeds tussen 10-15% en 80% (ca. 28 min) op Shell Recharge snelladers. Rijden in ontspannen etappes van 2u15 tot 2u30.*
+
+* **DAG 1 (Zondag 11 juli 2027) &bull; Ingelmunster &rarr; Seehotel Beinwil am See (635 km):**
+  * **07:30 &bull; Vertrek Ingelmunster** met **100% accu** (380 km bereik).
+  * *265 km rijden via Kortrijk, Doornik, Namen (E411) naar Luxemburg (ca. 2u45).*
+  * **10:15 &ndash; 10:45 &bull; Laadstop 1: Aire de Capellen of Berchem (Luxemburg):**
+    * *Accu bij aankomst:* ca. 18%.
+    * *Laden:* 30 min snelladen aan Ionity/TotalEnergies/Shell Recharge tot **80%**.
+    * *Activiteit:* Eerste koffie, toiletstop, benen strekken.
+  * *215 km rijden via Metz/Saarbrücken en A35 Elzas (ca. 2u15).*
+  * **13:00 &ndash; 13:45 &bull; Laadstop 2: Aire du Haut-Koenigsbourg / Colmar (A35 Frankrijk):**
+    * *Accu bij aankomst:* ca. 15%.
+    * *Laden:* 40 min snelladen aan Ionity/Fastned tot **85%**.
+    * *Activiteit:* Uitgebreide lunchpauze met het hele gezin!
+  * *155 km rijden via Basel (Zwitserse grens) en A2/A1 naar Hallwilersee (ca. 1u45).*
+  * **15:30 &bull; Aankomst Seehotel Beinwil am See (Zwitserland):**
+    * *Accu bij aankomst:* ca. 45% (ruim voldoende reserve).
+    * *Hotel-laden:* Inpluggen aan de AC-laadpaal van het hotel; 's nachts ontspannen volladen tot **100%**.
+    * *Middag/Avond:* Zwemmen in de Hallwilersee, terras aan het meer en diner met zonsondergang!
+
+* **DAG 2 (Maandag 12 juli 2027) &bull; Beinwil am See &rarr; Hotel Lido Ledro (360 km):**
+  * **08:30 &bull; Vertrek Beinwil am See** met **100% accu** (380 km bereik).
+  * *210 km rijden langs Vierwoudstedenmeer, Gotthardtunnel en afdaling naar Ticino (ca. 2u30).*
+  * **11:00 &ndash; 11:30 &bull; Laadstop 3: Aire de Bellinzona Sud of Coldrerio (A2 Zwitserland):**
+    * *Accu bij aankomst:* ca. 40% (extra hoog dankzij regeneratie bergaf bij de Gotthard!).
+    * *Laden:* 25 min snelladen tot **85%**.
+    * *Activiteit:* Sanitaire pauze en een Italiaanse espresso in het zonnige kanton Ticino.
+  * *150 km rijden via Chiasso (Italiaanse grens), Como, Milaan-Brescia en Valle Sabbia (ca. 2u00).*
+  * **13:30 &ndash; 13:45 &bull; Aankomst Hotel Lido Ledro (Pieve di Ledro):**
+    * *Accu bij aankomst:* ca. 45&ndash;50% SoC (ruim 180 km over voor lokale ritjes).
+    * *Resultaat:* Vroeg in de namiddag al inchecken, zwembroek aan en genieten van het turquoise meer!
+
+#### ⏱️ Realistisch Laad- & Tijdschema BMW i4 (Terugreis)
+
+* **DAG 1 Terug (Dinsdag 20 juli 2027) &bull; Ledro &rarr; Colmar (LE 46A &bull; 470 km):**
+  * **09:00 &bull; Vertrek Ledro** (100% accu via hotelpaal of Neogy snellader).
+  * **11:30 &ndash; 12:15 &bull; Laadstop 1 (na 200 km): Aire de Bellinzona Nord (A2 CH):**
+    * 40 min laden (15% &rarr; 85%) + lunchpauze.
+  * **14:15 &ndash; 14:40 &bull; Laadstop 2 (na 180 km): Pratteln bij Basel (A2 CH):**
+    * 25 min laden (20% &rarr; 80%) + drankje.
+  * **15:30 &bull; Aankomst appartement LE 46A in Colmar:**
+    * Inchecken, veilige privéparking, wandeling door *La Petite Venise* en gezellig diner.
+
+* **DAG 2 Terug (Woensdag 21 juli 2027) &bull; Colmar &rarr; Ingelmunster (515 km):**
+  * **09:30 &bull; Vertrek Colmar** (na ochtendwandeling en bakkerij).
+  * **12:15 &ndash; 13:00 &bull; Laadstop 1 (na 250 km): Aire de Berchem (Luxemburg):**
+    * 40 min laden (15% &rarr; 85%) + middaglunch.
+  * **14:45 &ndash; 15:00 &bull; Optionele korte pauze (na 160 km): Wanlin / Namen (E411):**
+    * 15 min snelle koffie/plasstop (top-up naar 75%).
+  * **16:30 &bull; Aankomst thuis in Ingelmunster!**
+
+---
+
+### ❌ Geëvalueerde Optie: Tour de France 2027 via Annecy / Grand Colombier (Afgewezen)
+
+Op 22 oktober 2026 maakte ASO het officiële parcours van de Tour de France 2027 bekend. Op exact onze vertrekdatum (zondag 11 juli 2027) finisht Étape 9 op de **Grand Colombier** (Ain), waarna het peloton op maandag 12 juli een **rustdag in Annecy** houdt.
+
+We hebben deze optie grondig doorgerekend als alternatieve heenroute via Frankrijk, maar **besloten dit NIET te doen omwille van de forse extra reistijd en kosten**:
+- **Waarom afgewezen:**
+  - *Extra kilometers & rijtijd:* Dag 1 wordt 740 km (ca. 7u30 i.p.v. 635 km / 6u45). Dag 2 wordt 490 km (ca. 5u15 i.p.v. 360 km / 4u45).
+  - *Aankomst bij Hotel Lido Ledro:* Pas rond **16:30 &ndash; 17:00** i.p.v. **13:30**. We zouden een volledige namiddag zon en zwemplezier aan het Ledromeer verliezen.
+  - *Tolkosten:* Fréjustunnel (€ 55 enkel) + Franse péage (€ 85) = ca. **€ 140** (circa **€ 85 duurder** dan de Zwitserse route met vignet).
+  - *Drukte:* Gigantische verkeersdrukte en wegafsluitingen rond de Grand Colombier en Annecy.
+- **Conclusie:** Het idee is geëvalueerd en gearchiveerd, maar we kiezen resoluut voor het comfort, de rust en de vroege aankomst van de Zwitserse merenroute!
+
 ---
 
 ### 🇩🇪 Alternatieve Route: Klassiek via Duitsland & Oostenrijk
