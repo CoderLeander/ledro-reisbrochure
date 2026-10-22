@@ -43,12 +43,44 @@ Hieronder de realistische kostenraming voor de gehele reis (4 personen), bereken
 
 ---
 
-## 🚗 3. Dossier Lago di Ledro (Italië)
+## 🚗 3. Dossier Lago di Ledro (Italië) & Reisroutes
 
+> [!NOTE]
+> **Tussenstand:** Lago di Ledro ligt momenteel aan de leiding! De toevoeging van een sfeervolle tussenstop aan het Zwitserse meer (Hallwilersee) op de heenreis en de sprookjesachtige Franse Elzas (Colmar) op de terugreis maakt de autoreis tot een vakantie op zich.
+
+### ⭐ Voorkeursroute: Zwitserse Meren (Heen) & Franse Elzas / Colmar (Terug)
+Een prachtige, afwisselende cirkelroute door België, Luxemburg, Frankrijk, Zwitserland en Italië:
+
+1. **Heenreis (Zondag 11 juli 2027 – 635 km, ca. 6u45 rijden):**
+   - **Traject:** Ingelmunster &rarr; Namen &rarr; Luxemburg (voordelig tanken!) &rarr; Straatsburg &rarr; Mulhouse &rarr; Basel &rarr; **Hallwilersee / Beinwil am See** (Kanton Aargau, Zwitserland).
+   - **Tussenstop-optie 1 (⭐ Sophie's favoriet!):** [**Seehotel Beinwil am See**](https://www.booking.com/Share-rPMVNj)
+     - Gelegen direct aan het meer van Hallwil naast de aanlegsteiger.
+     - Prachtig terras over het water voor het avonddiner, inclusief ontbijt en gratis parkeergelegenheid.
+   - **Tussenstop-optie 2:** [**b-smart hotel Menziken**](https://www.booking.com/Share-e6vAIo1)
+     - Op 4 km van het meer; modern designhotel met 24/7 digitale self-check-in (volledig flexibel aankomstuur) en Italiaans restaurant *Napoli Stories*.
+2. **Aankomstdag Ledro (Maandag 12 juli 2027 – 360 km, ca. 4u45 rijden):**
+   - **Traject:** Beinwil am See &rarr; Luzern &rarr; Gotthardtunnel &rarr; Chiasso/Como &rarr; Bergamo &rarr; Brescia &rarr; Valle Sabbia &rarr; **Pieve di Ledro**.
+   - **Aankomst:** Rond 13:00 - 13:30 al bij **Hotel Lido Ledro**, direct aan het meer!
+3. **Terugreis Etappe 1 (Dinsdag 20 juli 2027 – 470 km, ca. 5u30 rijden):**
+   - **Traject:** Lago di Ledro &rarr; Brescia &rarr; Gotthard &rarr; Basel &rarr; **Colmar (Elzas, Frankrijk)**.
+   - **Overnachting in Colmar:** [**LE 46A**](https://www.booking.com/Share-6A5Hge) (46 Rue de la Semm, Colmar)
+     - Schitterend gerenoveerd, 63 m² groot privé-appartement voor 4 personen met 2 aparte slaapkamers, complete keuken, privébalkon/terras en gratis beveiligde privéparking op eigen terrein.
+     - Op 10 tot 15 minuten wandelen van het historische centrum en *La Petite Venise* (vakwerkhuizen, grachten, gezellige wijnbarretjes en Elzasser winstubs).
+4. **Thuisreis Etappe 2 (Woensdag 21 juli 2027 – 515 km, ca. 5u15 rijden):**
+   - **Traject:** Na een ochtendwandeling en ontbijt in Colmar: Colmar &rarr; Straatsburg &rarr; Metz &rarr; Luxemburg &rarr; Ingelmunster. Rond 16:30 ontspannen thuis.
+- **Tol & Vignetten:**
+  - Zwitsers Autobahnvignet: CHF 40 (ca. € 42, heel 2027 geldig).
+  - Italiaanse snelwegtol Como &harr; Brescia: ca. € 28 retour.
+  - Franse Elzassnelweg (A35): **tolvrij**!
+  - Totale tolkost: ca. **€ 70** (exact gelijk aan de Oostenrijk/Brenner-route, maar aanzienlijk korter in kilometers: 995 km heen i.p.v. 1.090 km).
+
+---
+
+### 🇩🇪 Alternatieve Route: Klassiek via Duitsland & Oostenrijk
 - **Route:** Ingelmunster &rarr; Luik &rarr; Koblenz &rarr; Stuttgart/Ulm &rarr; Füssen &rarr; Fernpass &rarr; Brennerpas &rarr; Rovereto Sud &rarr; Riva del Garda &rarr; Pieve di Ledro (1.090 km).
-- **Heenreis:** Zondag 11 juli vertrek 08:30 &rarr; overnachting na 740 km in **Füssen (Beieren)** of **Reutte (Tirol)**. Maandag 12 juli vertrek 08:00 &rarr; aankomst Ledro om **12:15 rond de middag**.
-- **Terugreis:** Dinsdag 20 juli vertrek 10:00 &rarr; overnachting in de historische keizerstad **Speyer** (Rijnland-Palts). Woensdag 21 juli rond 14:00 thuis.
-- **Tussenstop-hotels:** *Hotel Goldene Rose* (Reutte) met afgesloten fietsengarage & wellness, en *Hotel Speyer am Technik Museum* met enorme gratis parking.
+- **Heenreis:** Overnachting na 740 km in **Füssen (Beieren)** of **Reutte (Tirol)** bij *Hotel Goldene Rose* (afgesloten fietsengarage).
+- **Terugreis:** Overnachting na 630 km in de historische keizerstad **Speyer** bij *Hotel Speyer am Technik Museum*.
+- **Tol & Tunnels:** Oostenrijk 10-dagen vignet (€ 12) + Brennerpas retour (€ 24) + Italië tol (€ 34) = **ca. € 70**.
 
 ---
 
