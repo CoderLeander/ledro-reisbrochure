@@ -111,6 +111,41 @@ Een prachtige, afwisselende cirkelroute door België, Luxemburg, Frankrijk, Zwit
 
 ---
 
+### 🚲 3.4 Fietsverhuur & E-Bikes ter Plaatse (Prijzen & Mogelijkheden)
+
+Het is **zeer verstandig dat je fietsverhuur NIET vooraf via Booking.com hebt vastgelegd**. Zo betaal je niet vooraf voor vaste dagen en blijf je 100% flexibel om per halve of hele dag te huren wanneer het weer en jullie planning perfect zijn!
+
+1. **Direct bij Hotel Lido Ledro (Eigen Hotelvloot):**
+   - Het hotel heeft **6 eigen e-bikes** exclusief voor hotelgasten op het domein:
+     - 2x E-MTB Full-Suspension (voor sportievere bergpaden & trails zoals Tremalzo)
+     - 2x E-Bike Front-Suspension (comfortabel voor tochten rond het meer en door het dal)
+     - 1x Junior E-Bike (vanaf ca. 130 cm lengte)
+     - 1x Handige Cargo E-Bike (voor gezinnen met kleintjes of spullen)
+   - **Tarieven hotel:** In het *Active & Relax* pakket zit 4 uur front-bike inbegrepen met een upgrade naar full-suspension voor **€ 15**. Losse huur aan de receptie bedraagt indicatief ca. **€ 25 – € 30 (halve dag / 4u)** en ca. **€ 35 – € 45 (volle dag)**, eenvoudig verrekend op de kamerrekening.
+   - Het hotel beschikt tevens over een gratis afgesloten fietsenstalling (*deposito biciclette*) voor eigen fietsen.
+
+2. **Grootste specialist op wandelafstand: Ledro Bike Rentals (Pieve di Ledro):**
+   - Locatie: bij *Bar Nido Verde* in Pieve di Ledro (ca. 350 m van Hotel Lido, website: `www.ledrobikerentals.it`).
+   - Zeer ruime vloot Ghost/Bosch e-bikes en stadsfietsen met officiële transparante tarieven:
+     - **E-Bike City / Trekking (500–630 Wh):**
+       - 2 uur: **€ 18,00**
+       - Halve dag (ochtend 8:30–14:00 of middag 14:00–19:00): **€ 25,00**
+       - 4 uur: **€ 30,00**
+       - 1 volle dag (8:30–19:00): **€ 35,00**
+       - 1 week: **€ 195,00**
+     - **E-MTB Front (hardtail 630 Wh):**
+       - Halve dag: **€ 32,00** | 1 volle dag: **€ 45,00** | 1 week: **€ 270,00**
+     - **E-MTB Full Suspension (high-end Bosch 625/750 Wh):**
+       - Halve dag: **€ 43,00 – € 47,00** | 1 volle dag: **€ 60,00 – € 65,00**
+     - **Traditionele stadsfietsen / Mountainbikes (spierkracht):** ca. **€ 10 – € 18 per dag**.
+     - **Accessoires:** Kinderzitje (€ 5/halve dag, € 8/dag), kinderfietskar *carrellino* (€ 10/halve dag, € 15/dag), helm (€ 2/halve dag, € 4/dag).
+
+3. **Top Fietstochten vanaf het Hotel:**
+   - **Rondje Ledromeer:** ca. 10 km, vrijwel vlak, langs het water met vlonders en panoramische strandjes (1 à 2 uur ontspannen genieten).
+   - **Strada del Ponale:** Afdalen over de spectaculaire historische rotsweg hoog boven het Gardameer naar Riva del Garda, en comfortabel met de e-bike weer omhoog (of neem de fietsbus).
+
+---
+
 ## 🇸🇮 4. Dossier Meer van Bled (Slovenië)
 
 - **Vliegroute:** Brussels Airlines (SN) rechtstreeks van **Brussel Zaventem (BRU) naar Ljubljana (LJU)**. Vluchttijd 1u35m.
